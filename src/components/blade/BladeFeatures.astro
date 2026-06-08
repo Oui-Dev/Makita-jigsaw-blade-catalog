@@ -20,8 +20,8 @@ const items: { key: keyof BladeFeatures; icon: IconKey; label: string }[] = [
 <div class="feats">
   {items.map((item) => (
     <div class={`feat ${features[item.key] ? 'on' : 'off'}`}>
-      <div class="fic"><Icon name={item.icon} size={16} /></div>
-      <div class="fl">{item.label}</div>
+      <div class="feat-icon"><Icon name={item.icon} size={16} /></div>
+      <div class="feat-label">{item.label}</div>
     </div>
   ))}
 </div>

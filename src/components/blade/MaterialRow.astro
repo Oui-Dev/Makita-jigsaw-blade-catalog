@@ -13,8 +13,8 @@ const { materials } = Astro.props;
 <div class="mat-row">
   {materials.map((key) => (
     <div class="mat-cell">
-      <span class="mic"><Icon name={key} size={22} /></span>
-      <span class="mn">{MATERIAL_LABELS[key]}</span>
+      <span class="mat-icon"><Icon name={key} size={22} /></span>
+      <span class="mat-name">{MATERIAL_LABELS[key]}</span>
     </div>
   ))}
 </div>

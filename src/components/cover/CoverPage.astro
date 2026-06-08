@@ -24,7 +24,7 @@ import { catalogMeta } from '@/data/catalog-meta';
   </svg>
   <div class="kicker">{catalogMeta.kicker}</div>
   <h1>{catalogMeta.heading}</h1>
-  <div class="sub">{catalogMeta.subtitle}</div>
+  <div class="subtitle">{catalogMeta.subtitle}</div>
   <div class="machine">
     <span>{catalogMeta.machineLabel}</span> <b>{catalogMeta.machineModel}</b>
     <span style="opacity:.8">{catalogMeta.machineNote}</span>
@@ -32,8 +32,8 @@ import { catalogMeta } from '@/data/catalog-meta';
   <div class="meta">
     {catalogMeta.stats.map((s) => (
       <div>
-        <span class="n">{s.value}</span>
-        <span class="l">{s.label}</span>
+        <span class="stat-value">{s.value}</span>
+        <span class="stat-label">{s.label}</span>
       </div>
     ))}
   </div>

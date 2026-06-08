@@ -19,19 +19,19 @@ import { legendData } from '@/data/legend';
           {item.kind === 'material' && (
             <>
               <span class="chip" style={`background:${item.color}`}>{item.code}</span>
-              <div class="tx"><b>{item.label}</b><span>{item.desc}</span></div>
+              <div class="leg-text"><b>{item.label}</b><span>{item.desc}</span></div>
             </>
           )}
           {item.kind === 'tooth' && (
             <>
               <div class="tooth-row"><span class="code">{item.code}</span></div>
-              <div class="tx"><b>{item.label}</b><span>{item.desc}</span></div>
+              <div class="leg-text"><b>{item.label}</b><span>{item.desc}</span></div>
             </>
           )}
           {(item.kind === 'feature' || item.kind === 'spec' || item.kind === 'cut-material') && (
             <>
-              <span class="ic"><Icon name={item.iconKey} size={24} /></span>
-              <div class="tx">
+              <span class="leg-icon"><Icon name={item.iconKey} size={24} /></span>
+              <div class="leg-text">
                 <b>{item.label}</b>
                 {'desc' in item && item.desc && <span>{item.desc}</span>}
               </div>

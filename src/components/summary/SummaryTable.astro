@@ -15,28 +15,28 @@ const rows = bladeRefs.map((ref) => blades[ref].summary).filter((row) => row != 
   <thead>
     <tr>
       <th>Ref</th>
-      <th class="c">Lame</th>
-      <th class="c">TPI</th>
-      <th class="c">Longueur</th>
+      <th class="col-center">Lame</th>
+      <th class="col-center">TPI</th>
+      <th class="col-center">Longueur</th>
       <th>Principaux materiaux</th>
-      <th class="c">Rapide</th>
-      <th class="c">Propre</th>
-      <th class="c">Courbe</th>
-      <th class="c">Lubrif.</th>
+      <th class="col-center">Rapide</th>
+      <th class="col-center">Propre</th>
+      <th class="col-center">Courbe</th>
+      <th class="col-center">Lubrif.</th>
     </tr>
   </thead>
   <tbody>
     {rows.map((row) => (
       <tr>
-        <td class="ref">{row.ref}</td>
-        <td class="c"><MatBadge code={row.material} /></td>
-        <td class="c">{row.tpi}</td>
-        <td class="c">{row.length}</td>
+        <td class="blade-ref">{row.ref}</td>
+        <td class="col-center"><MatBadge code={row.material} /></td>
+        <td class="col-center">{row.tpi}</td>
+        <td class="col-center">{row.length}</td>
         <td>{row.mainMaterials}</td>
-        <td class="c"><SummaryCheck value={row.fast} /></td>
-        <td class="c"><SummaryCheck value={row.clean} /></td>
-        <td class="c"><SummaryCheck value={row.curved} /></td>
-        <td class="c"><SummaryCheck value={row.lubrication} /></td>
+        <td class="col-center"><SummaryCheck value={row.fast} /></td>
+        <td class="col-center"><SummaryCheck value={row.clean} /></td>
+        <td class="col-center"><SummaryCheck value={row.curved} /></td>
+        <td class="col-center"><SummaryCheck value={row.lubrication} /></td>
       </tr>
     ))}
   </tbody>
