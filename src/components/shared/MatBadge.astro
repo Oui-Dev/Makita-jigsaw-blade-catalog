@@ -1,0 +1,12 @@
+---
+import { MATERIAL_COLORS } from '../../lib/constants';
+import type { MaterialCode } from '../../types/catalog';
+
+interface Props {
+  code: string;
+}
+
+const { code } = Astro.props;
+const color = MATERIAL_COLORS[code as MaterialCode] ?? '#3A3F45';
+---
+<span class="mat-badge" style={`background:${color}`}>{code}</span>

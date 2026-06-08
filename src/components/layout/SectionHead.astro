@@ -1,0 +1,12 @@
+---
+import type { SectionHeadData } from '../../types/catalog';
+
+interface Props extends SectionHeadData {}
+
+const { num, title, desc } = Astro.props;
+---
+<div class="sec-head">
+  <span class="num">{num}</span>
+  <h2>{title}</h2>
+  <div class="desc">{desc}</div>
+</div>

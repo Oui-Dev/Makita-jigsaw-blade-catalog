@@ -1,0 +1,71 @@
+---
+import type { BladeRecord } from '../../types/catalog';
+import MatBadge from '../shared/MatBadge.astro';
+import Icon from '../icons/Icon.astro';
+import BladeFeatures from './BladeFeatures.astro';
+import MaterialRow from './MaterialRow.astro';
+import SawBladeSvg from './SawBladeSvg.astro';
+
+interface Props {
+  blade: BladeRecord;
+}
+
+const { blade } = Astro.props;
+---
+<div class="card">
+  <div class="top">
+    <div class="id">
+      <span class="ref">{blade.ref}</span>
+      <span class="pk">{blade.pack}</span>
+    </div>
+    <div class="name">
+      <b>{blade.name}</b>
+      <span class="len">Longueur totale {blade.length} &middot; Longueur utile {blade.usefulLength}</span>
+    </div>
+    <BladeFeatures features={blade.features} />
+  </div>
+  <div class="mid">
+    <div class="blade-col">
+      <div class="bmat">
+        <span class="lbl">Lame</span>
+        <MatBadge code={blade.material} />
+      </div>
+      <div class="saw-wrap">
+        <SawBladeSvg sawPath={blade.sawPath} />
+      </div>
+      <div class="tpi">
+        <Icon name="tpi" size={18} />
+        <b>{blade.tpi}</b>
+        <span style="color:var(--slate)">TPI</span>
+      </div>
+    </div>
+    <div class="cuts">
+      <div class="lbl">Materiaux pouvant etre coupes</div>
+      <MaterialRow materials={blade.materials} />
+    </div>
+  </div>
+  <div class="specs">
+    <div class="spec">
+      <div class="k">Longueur totale</div>
+      <div class="v">{blade.length}</div>
+    </div>
+    <div class="spec">
+      <div class="k">Longueur utile</div>
+      <div class="v">{blade.usefulLength}</div>
+    </div>
+    <div class="spec">
+      <div class="k">Denture</div>
+      <div class="v">{blade.toothType}</div>
+    </div>
+    <div class="spec">
+      <div class="k">Equiv. Bosch</div>
+      <div class="v mono">{blade.boschEquiv}</div>
+    </div>
+  </div>
+  {blade.cutThickness && (
+    <div class="thick">
+      <span class="k">Epaisseur de coupe</span>{blade.cutThickness}
+    </div>
+  )}
+  <div class="obs" set:html={blade.observationsHtml} />
+</div>

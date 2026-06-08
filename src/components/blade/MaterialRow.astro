@@ -1,0 +1,18 @@
+---
+import { MATERIAL_LABELS } from '../../lib/constants';
+import Icon from '../icons/Icon.astro';
+
+interface Props {
+  materials: string[];
+}
+
+const { materials } = Astro.props;
+---
+<div class="mat-row">
+  {materials.map((key) => (
+    <div class="mat-cell">
+      <span class="mic"><Icon name={key} size={22} /></span>
+      <span class="mn">{MATERIAL_LABELS[key] ?? key}</span>
+    </div>
+  ))}
+</div>

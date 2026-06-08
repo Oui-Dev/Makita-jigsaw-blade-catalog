@@ -1,0 +1,31 @@
+---
+import { catalogMeta } from '../../data/catalog-meta';
+---
+<div class="cover">
+  <svg class="blade-art" width="260" height="520" viewBox="0 0 120 260" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#fff">
+      <path d="M52 6h16v26l-6 6v8h-4v-8l-6-6z"/>
+      <path d="M52 52h16v188l-8 14-8-14z"/>
+    </g>
+    <g fill="#fff">
+      <path d="M68 60l10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0
+               -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8z"/>
+    </g>
+  </svg>
+  <div class="kicker">{catalogMeta.kicker}</div>
+  <h1>{catalogMeta.heading}</h1>
+  <div class="sub">{catalogMeta.subtitle}</div>
+  <div class="machine">
+    <span>{catalogMeta.machineLabel}</span> <b>{catalogMeta.machineModel}</b>
+    <span style="opacity:.8">{catalogMeta.machineNote}</span>
+  </div>
+  <div class="meta">
+    {catalogMeta.stats.map((s) => (
+      <div>
+        <span class="n">{s.value}</span>
+        <span class="l">{s.label}</span>
+      </div>
+    ))}
+  </div>
+  <div class="foot">{catalogMeta.footnote}</div>
+</div>

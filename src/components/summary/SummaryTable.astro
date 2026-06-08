@@ -1,0 +1,43 @@
+---
+import { summaryRows, summaryNoteHtml } from '../../data/summary';
+import MatBadge from '../shared/MatBadge.astro';
+import YesNo from '../shared/YesNo.astro';
+import Note from '../layout/Note.astro';
+---
+<div class="pad"></div>
+<div class="sec-head">
+  <span class="num">02</span>
+  <h2>Tableau recapitulatif</h2>
+  <div class="desc">37 references compatibles, vue d'ensemble.</div>
+</div>
+<table class="sum">
+  <thead>
+    <tr>
+      <th>Ref</th>
+      <th class="c">Lame</th>
+      <th class="c">TPI</th>
+      <th class="c">Longueur</th>
+      <th>Principaux materiaux</th>
+      <th class="c">Rapide</th>
+      <th class="c">Propre</th>
+      <th class="c">Courbe</th>
+      <th class="c">Lubrif.</th>
+    </tr>
+  </thead>
+  <tbody>
+    {summaryRows.map((row) => (
+      <tr>
+        <td class="ref">{row.ref}</td>
+        <td class="c"><MatBadge code={row.material} /></td>
+        <td class="c">{row.tpi}</td>
+        <td class="c">{row.length}</td>
+        <td>{row.mainMaterials}</td>
+        <td class="c"><YesNo value={row.rapide} /></td>
+        <td class="c"><YesNo value={row.propre} /></td>
+        <td class="c"><YesNo value={row.courbe} /></td>
+        <td class="c"><YesNo value={row.lubrif} /></td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+<Note html={summaryNoteHtml} />

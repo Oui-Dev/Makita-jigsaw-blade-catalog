@@ -1,0 +1,281 @@
+export const usageIndex = {
+  "entries": [
+    {
+      "title": "Bois",
+      "countText": "20 lame(s)",
+      "iconKey": "bois-tendre",
+      "refs": [
+        "B-10",
+        "B-10S",
+        "B-11",
+        "B-12",
+        "B-13",
+        "BR-13",
+        "B-14",
+        "B-15",
+        "B-16",
+        "B-16L",
+        "B-17",
+        "B-18",
+        "B-19",
+        "B-19S",
+        "B-23",
+        "B-25",
+        "B-26",
+        "B-29",
+        "B-50",
+        "B-52"
+      ]
+    },
+    {
+      "title": "Bois de finition",
+      "countText": "9 lame(s)",
+      "iconKey": "bois-tendre",
+      "refs": [
+        "B-10S",
+        "B-14",
+        "B-15",
+        "B-18",
+        "B-19",
+        "B-19S",
+        "B-23",
+        "B-29",
+        "B-50"
+      ]
+    },
+    {
+      "title": "Bois epais",
+      "countText": "2 lame(s)",
+      "iconKey": "bois-dur",
+      "refs": [
+        "B-13",
+        "B-16L"
+      ]
+    },
+    {
+      "title": "Contreplaque",
+      "countText": "20 lame(s)",
+      "iconKey": "contreplaque",
+      "refs": [
+        "B-10",
+        "B-10S",
+        "B-11",
+        "B-12",
+        "B-13",
+        "BR-13",
+        "B-14",
+        "B-15",
+        "B-17",
+        "B-18",
+        "B-19",
+        "B-19S",
+        "B-23",
+        "B-22S",
+        "B-29",
+        "B-30",
+        "B-50",
+        "B-52",
+        "B-53",
+        "B-54"
+      ]
+    },
+    {
+      "title": "MDF / Agglomere",
+      "countText": "3 lame(s)",
+      "iconKey": "mdf-agglomere",
+      "refs": [
+        "B-50",
+        "B-53",
+        "B-54"
+      ]
+    },
+    {
+      "title": "Stratifie",
+      "countText": "3 lame(s)",
+      "iconKey": "stratifie-parquet",
+      "refs": [
+        "B-23",
+        "B-53",
+        "B-54"
+      ]
+    },
+    {
+      "title": "PVC",
+      "countText": "2 lame(s)",
+      "iconKey": "pvc",
+      "refs": [
+        "B-50",
+        "B-52"
+      ]
+    },
+    {
+      "title": "Plastique",
+      "countText": "20 lame(s)",
+      "iconKey": "plastique",
+      "refs": [
+        "B-10",
+        "B-11",
+        "B-12",
+        "B-13",
+        "B-14",
+        "B-15",
+        "B-16",
+        "B-16L",
+        "B-17",
+        "B-18",
+        "B-19",
+        "B-19S",
+        "B-21",
+        "B-23",
+        "B-25",
+        "B-22",
+        "B-24",
+        "B-26",
+        "B-50",
+        "B-52"
+      ]
+    },
+    {
+      "title": "Aluminium",
+      "countText": "4 lame(s)",
+      "iconKey": "aluminium",
+      "refs": [
+        "B-21",
+        "B-26",
+        "B-27",
+        "B-52"
+      ]
+    },
+    {
+      "title": "Acier",
+      "countText": "13 lame(s)",
+      "iconKey": "acier",
+      "refs": [
+        "B-25",
+        "B-22",
+        "B-22S",
+        "B-24",
+        "B-26",
+        "B-28",
+        "B-30",
+        "B-32",
+        "B-33",
+        "B-34",
+        "B-35",
+        "B-51",
+        "B-52"
+      ]
+    },
+    {
+      "title": "Inox",
+      "countText": "7 lame(s)",
+      "iconKey": "inox",
+      "refs": [
+        "B-22",
+        "B-32",
+        "B-33",
+        "B-34",
+        "B-35",
+        "B-51",
+        "B-52"
+      ]
+    },
+    {
+      "title": "Metaux non ferreux",
+      "countText": "9 lame(s)",
+      "iconKey": "metaux-non-ferreux",
+      "refs": [
+        "B-21",
+        "B-22",
+        "B-22S",
+        "B-27",
+        "B-28",
+        "B-30",
+        "B-32",
+        "B-33",
+        "B-34"
+      ]
+    },
+    {
+      "title": "Carrelage / Fibre de verre / Ciment",
+      "countText": "2 lame(s)",
+      "iconKey": "carrelage-fibre-ciment",
+      "refs": [
+        "B-60",
+        "B-61"
+      ]
+    },
+    {
+      "title": "Coupe rapide",
+      "countText": "13 lame(s)",
+      "iconKey": "coupe-rapide",
+      "refs": [
+        "B-10",
+        "B-11",
+        "B-12",
+        "B-13",
+        "BR-13",
+        "B-16",
+        "B-16L",
+        "B-17",
+        "B-25",
+        "B-26",
+        "B-50",
+        "B-51",
+        "B-52"
+      ]
+    },
+    {
+      "title": "Coupe propre",
+      "countText": "26 lame(s)",
+      "iconKey": "coupe-propre",
+      "refs": [
+        "B-10S",
+        "B-14",
+        "B-15",
+        "B-18",
+        "B-19",
+        "B-19S",
+        "B-21",
+        "B-23",
+        "B-22",
+        "B-22S",
+        "B-24",
+        "B-27",
+        "B-28",
+        "B-29",
+        "B-30",
+        "B-32",
+        "B-33",
+        "B-34",
+        "B-35",
+        "B-50",
+        "B-51",
+        "B-53",
+        "B-54",
+        "B-60",
+        "B-61",
+        "B-K"
+      ]
+    },
+    {
+      "title": "Coupe courbe (chantournage)",
+      "countText": "10 lame(s)",
+      "iconKey": "coupe-courbe",
+      "refs": [
+        "B-17",
+        "B-18",
+        "B-26",
+        "B-27",
+        "B-29",
+        "B-53",
+        "B-54",
+        "B-60",
+        "B-61",
+        "B-K"
+      ]
+    }
+  ],
+  "noteHtml": "\n    Les anciennes lames Makita a queue universelle (serie numerotee a code A-858xx) ne sont pas compatibles avec la fixation\n    par baionnette de la DJV185Z et ne figurent pas dans cet index. Seules les lames a emmanchement en T (serie B, Bayonet type) sont retenues.\n  ",
+  "footLine": "Guide des lames de scie sauteuse Makita (queue en T) · Compatible DJV185Z · Edition du 07/06/2026"
+} as const;

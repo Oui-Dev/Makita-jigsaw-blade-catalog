@@ -1,0 +1,29 @@
+---
+import { usageIndex } from '../../data/usage-index';
+import Icon from '../icons/Icon.astro';
+import Note from '../layout/Note.astro';
+---
+<div class="pad"></div>
+<div class="sec-head">
+  <span class="num">04</span>
+  <h2>Index par usage</h2>
+  <div class="desc">Retrouver rapidement les lames adaptees a chaque besoin.</div>
+</div>
+<div class="idx-grid">
+  {usageIndex.entries.map((entry) => (
+    <div class="idx-card">
+      <div class="h">
+        <span class="ico"><Icon name={entry.iconKey} size={20} /></span>
+        {entry.title}
+        <span class="n">{entry.countText}</span>
+      </div>
+      <div class="b">
+        {entry.refs.map((ref) => (
+          <span class="idx-chip">{ref}</span>
+        ))}
+      </div>
+    </div>
+  ))}
+</div>
+<Note html={usageIndex.noteHtml} />
+<div class="foot-line">{usageIndex.footLine}</div>

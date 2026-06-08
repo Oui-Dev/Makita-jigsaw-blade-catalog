@@ -1,0 +1,64 @@
+---
+import DocumentLayout from '../layouts/DocumentLayout.astro';
+import PrintPage from '../components/layout/PrintPage.astro';
+import SectionHead from '../components/layout/SectionHead.astro';
+import CoverPage from '../components/cover/CoverPage.astro';
+import LegendPage from '../components/legend/LegendPage.astro';
+import SummaryTable from '../components/summary/SummaryTable.astro';
+import FamilyBand from '../components/family/FamilyBand.astro';
+import BladeCard from '../components/blade/BladeCard.astro';
+import UsageIndexPage from '../components/index/UsageIndexPage.astro';
+import { documentPages } from '../data/page-layout';
+import { blades } from '../data/blades';
+---
+<DocumentLayout>
+  {documentPages.map((page) => {
+    if (page.type === 'cover') {
+      return (
+        <PrintPage>
+          <CoverPage />
+        </PrintPage>
+      );
+    }
+    if (page.type === 'legend') {
+      return (
+        <PrintPage>
+          <LegendPage />
+        </PrintPage>
+      );
+    }
+    if (page.type === 'summary') {
+      return (
+        <PrintPage>
+          <SummaryTable />
+        </PrintPage>
+      );
+    }
+    if (page.type === 'usage-index') {
+      return (
+        <PrintPage>
+          <UsageIndexPage />
+        </PrintPage>
+      );
+    }
+    if (page.type === 'details') {
+      return (
+        <PrintPage>
+          {page.pad && <div class="pad"></div>}
+          {page.sectionHead && <SectionHead {...page.sectionHead} />}
+          {page.blocks.map((block) => {
+            if (block.kind === 'family') {
+              return <FamilyBand name={block.name} count={block.count} />;
+            }
+            if (block.kind === 'blade') {
+              const blade = blades[block.ref];
+              return blade ? <BladeCard blade={blade} /> : null;
+            }
+            return null;
+          })}
+        </PrintPage>
+      );
+    }
+    return null;
+  })}
+</DocumentLayout>

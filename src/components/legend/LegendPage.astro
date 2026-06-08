@@ -1,0 +1,46 @@
+---
+import { legendData } from '../../data/legend';
+import Icon from '../icons/Icon.astro';
+import Note from '../layout/Note.astro';
+---
+<div class="pad"></div>
+<div class="sec-head">
+  <span class="num">01</span>
+  <h2>Legende des pictogrammes</h2>
+  <div class="desc">Symboles reutilises a l'identique dans tout le document.</div>
+</div>
+
+{legendData.blocks.map((block) => (
+  <div class="leg-block">
+    <h3>{block.title}</h3>
+    <div class={`leg-grid${block.twoCol ? ' two' : ''}`}>
+      {block.items.map((item) => (
+        <div class={`leg-item${item.kind === 'material' ? ' leg-mat' : ''}${item.kind === 'feature' ? ' leg-feat' : ''}`}>
+          {item.kind === 'material' && (
+            <>
+              <span class="chip" style={`background:${item.color}`}>{item.code}</span>
+              <div class="tx"><b>{item.label}</b><span>{item.desc}</span></div>
+            </>
+          )}
+          {item.kind === 'tooth' && (
+            <>
+              <div class="tooth-row"><span class="code">{item.code}</span></div>
+              <div class="tx"><b>{item.label}</b><span>{item.desc}</span></div>
+            </>
+          )}
+          {(item.kind === 'feature' || item.kind === 'spec' || item.kind === 'cut-material') && (
+            <>
+              <span class="ic"><Icon name={item.iconKey} size={24} /></span>
+              <div class="tx">
+                <b>{item.label}</b>
+                {item.desc && <span>{item.desc}</span>}
+              </div>
+            </>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+))}
+
+<Note html={legendData.noteHtml} />
