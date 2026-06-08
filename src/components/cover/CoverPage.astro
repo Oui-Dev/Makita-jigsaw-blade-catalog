@@ -1,5 +1,22 @@
 ---
-import { catalogMeta } from '@/data/catalog-meta';
+const compatibleModelGroups = [
+  {
+    label: 'Filaire',
+    models: ['4326', '4327', '4328', '4329', '4350', '4351', 'BJV140', 'BJV180', 'JR1000', 'JR105', 'JV0600'],
+  },
+  {
+    label: 'LXT 18V',
+    models: ['DJV141', 'DJV142', 'DJV180', 'DJV181', 'DJV182', 'DJV184', 'DJV185', 'DJV186'],
+  },
+  {
+    label: 'XGT 40V',
+    models: ['JV001', 'JV002'],
+  },
+  {
+    label: 'CXT 12V',
+    models: ['JV101', 'JV102', 'JV103', 'JV183'],
+  },
+]
 ---
 
 <div class="cover">
@@ -24,11 +41,11 @@ import { catalogMeta } from '@/data/catalog-meta';
     </g>
   </svg>
 
-  <div class="kicker">{catalogMeta.kicker}</div>
+  <div class="kicker">Guide de référence outillage</div>
 
-  <h1>{catalogMeta.heading}</h1>
+  <h1>Lames de scie sauteuse Makita à emmanchement en T</h1>
 
-  <div class="subtitle">{catalogMeta.subtitle}</div>
+  <div class="subtitle">Catalogue complet des lames Makita compatibles, classées par usage, avec caractéristiques techniques et pictogrammes normalisés.</div>
 
   <div class="machine">
     <div class="machine-head">
@@ -36,7 +53,7 @@ import { catalogMeta } from '@/data/catalog-meta';
       <span class="machine-note">(fixation par baionnette / Type B)</span>
     </div>
 
-    {catalogMeta.compatibleModelGroups.map((group) => (
+    {compatibleModelGroups.map((group) => (
       <div class="machine-group">
         <span class="machine-group-label">{group.label}</span>
         <span class="machine-group-models">{group.models.join(', ')}</span>
@@ -45,12 +62,16 @@ import { catalogMeta } from '@/data/catalog-meta';
   </div>
 
   <div class="meta">
-    {catalogMeta.stats.map((s) => (
-      <div>
-        <span class="stat-value">{s.value}</span>
-        <span class="stat-label">{s.label}</span>
-      </div>
-    ))}
+    <div>
+      <span class="stat-value">37</span>
+      <span class="stat-label">Références</span>
+    </div>
+    <div>
+      <span class="stat-value">08/06/2026</span>
+      <span class="stat-label">Édition</span>
+    </div>
   </div>
-  <div class="foot">{catalogMeta.footnote}</div>
+  <div class="foot">
+    Document de synthèse, non officiel, établi à partir de sources croisées. Les références et caractéristiques peuvent évoluer : vérifier la disponibilité auprès de Makita ou d'un revendeur agréé.
+  </div>
 </div>
