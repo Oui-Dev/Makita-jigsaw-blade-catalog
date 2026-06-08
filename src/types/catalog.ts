@@ -90,7 +90,6 @@ export type DocumentPage =
   | { type: 'usage-index' }
   | {
       type: 'details';
-      pad: boolean;
       blocks: PageBlock[];
       sectionHead?: SectionHeadData;
     };

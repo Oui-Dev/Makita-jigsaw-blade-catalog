@@ -43,7 +43,6 @@ import { blades } from '@/data/blades';
     if (page.type === 'details') {
       return (
         <PrintPage>
-          {page.pad && <div class="pad"></div>}
           {page.sectionHead && <SectionHead {...page.sectionHead} />}
           {page.blocks.map((block) => {
             const blade = blades[block.ref];

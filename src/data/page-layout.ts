@@ -1,7 +1,7 @@
 import type { DocumentPage } from '@/types/catalog';
 import { bladeRefs } from '@/data/blades';
 
-const BLADES_PER_PAGE = 3;
+const BLADES_PER_PAGE = 4;
 
 function chunk<T>(arr: readonly T[], size: number): T[][] {
   const pages: T[][] = [];
@@ -13,7 +13,6 @@ function chunk<T>(arr: readonly T[], size: number): T[][] {
 
 const detailPages: DocumentPage[] = chunk(bladeRefs, BLADES_PER_PAGE).map((refs, i) => ({
   type: 'details' as const,
-  pad: i === 0,
   blocks: refs.map((ref) => ({ kind: 'blade' as const, ref })),
   sectionHead:
     i === 0

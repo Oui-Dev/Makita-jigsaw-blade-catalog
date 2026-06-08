@@ -28,31 +28,6 @@ export const usageIndex = {
       ]
     },
     {
-      "title": "Bois de finition",
-      "countText": "9 lame(s)",
-      "iconKey": "softwood",
-      "refs": [
-        "B-10S",
-        "B-14",
-        "B-15",
-        "B-18",
-        "B-19",
-        "B-19S",
-        "B-23",
-        "B-29",
-        "B-50"
-      ]
-    },
-    {
-      "title": "Bois epais",
-      "countText": "2 lame(s)",
-      "iconKey": "hardwood",
-      "refs": [
-        "B-13",
-        "B-16L"
-      ]
-    },
-    {
       "title": "Contreplaque",
       "countText": "20 lame(s)",
       "iconKey": "plywood",
@@ -77,6 +52,31 @@ export const usageIndex = {
         "B-52",
         "B-53",
         "B-54"
+      ]
+    },
+    {
+      "title": "Bois (coupe propre)",
+      "countText": "9 lame(s)",
+      "iconKey": "softwood",
+      "refs": [
+        "B-10S",
+        "B-14",
+        "B-15",
+        "B-18",
+        "B-19",
+        "B-19S",
+        "B-23",
+        "B-29",
+        "B-50"
+      ]
+    },
+    {
+      "title": "Bois epais",
+      "countText": "2 lame(s)",
+      "iconKey": "hardwood",
+      "refs": [
+        "B-13",
+        "B-16L"
       ]
     },
     {
@@ -136,17 +136,6 @@ export const usageIndex = {
       ]
     },
     {
-      "title": "Aluminium",
-      "countText": "4 lame(s)",
-      "iconKey": "aluminum",
-      "refs": [
-        "B-21",
-        "B-26",
-        "B-27",
-        "B-52"
-      ]
-    },
-    {
       "title": "Acier",
       "countText": "13 lame(s)",
       "iconKey": "steel",
@@ -158,20 +147,6 @@ export const usageIndex = {
         "B-26",
         "B-28",
         "B-30",
-        "B-32",
-        "B-33",
-        "B-34",
-        "B-35",
-        "B-51",
-        "B-52"
-      ]
-    },
-    {
-      "title": "Inox",
-      "countText": "7 lame(s)",
-      "iconKey": "stainless-steel",
-      "refs": [
-        "B-22",
         "B-32",
         "B-33",
         "B-34",
@@ -194,6 +169,31 @@ export const usageIndex = {
         "B-32",
         "B-33",
         "B-34"
+      ]
+    },
+    {
+      "title": "Inox",
+      "countText": "7 lame(s)",
+      "iconKey": "stainless-steel",
+      "refs": [
+        "B-22",
+        "B-32",
+        "B-33",
+        "B-34",
+        "B-35",
+        "B-51",
+        "B-52"
+      ]
+    },
+    {
+      "title": "Aluminium",
+      "countText": "4 lame(s)",
+      "iconKey": "aluminum",
+      "refs": [
+        "B-21",
+        "B-26",
+        "B-27",
+        "B-52"
       ]
     },
     {
