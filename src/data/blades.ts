@@ -1,4 +1,4 @@
-import type { BladeRecord } from '../types/catalog';
+import type { BladeRecord } from '@/types/catalog';
 
 export const blades: Record<string, BladeRecord> = {
   "B-10": {

@@ -1,4 +1,4 @@
-import type { DocumentPage } from '../types/catalog';
+import type { DocumentPage } from '@/types/catalog';
 
 export const documentPages: DocumentPage[] = [
   {

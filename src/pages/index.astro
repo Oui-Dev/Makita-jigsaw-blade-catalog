@@ -1,15 +1,15 @@
 ---
-import DocumentLayout from '../layouts/DocumentLayout.astro';
-import PrintPage from '../components/layout/PrintPage.astro';
-import SectionHead from '../components/layout/SectionHead.astro';
-import CoverPage from '../components/cover/CoverPage.astro';
-import LegendPage from '../components/legend/LegendPage.astro';
-import SummaryTable from '../components/summary/SummaryTable.astro';
-import FamilyBand from '../components/family/FamilyBand.astro';
-import BladeCard from '../components/blade/BladeCard.astro';
-import UsageIndexPage from '../components/index/UsageIndexPage.astro';
-import { documentPages } from '../data/page-layout';
-import { blades } from '../data/blades';
+import DocumentLayout from '@/layouts/DocumentLayout.astro';
+import PrintPage from '@/components/layout/PrintPage.astro';
+import SectionHead from '@/components/layout/SectionHead.astro';
+import CoverPage from '@/components/cover/CoverPage.astro';
+import LegendPage from '@/components/legend/LegendPage.astro';
+import SummaryTable from '@/components/summary/SummaryTable.astro';
+import FamilyBand from '@/components/family/FamilyBand.astro';
+import BladeCard from '@/components/blade/BladeCard.astro';
+import UsageIndexPage from '@/components/index/UsageIndexPage.astro';
+import { documentPages } from '@/data/page-layout';
+import { blades } from '@/data/blades';
 ---
 <DocumentLayout>
   {documentPages.map((page) => {

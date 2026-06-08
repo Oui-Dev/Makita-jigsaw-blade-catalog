@@ -1,4 +1,4 @@
-import type { MaterialCode } from '../types/catalog';
+import type { MaterialCode } from '@/types/catalog';
 
 export const MATERIAL_COLORS: Record<MaterialCode, string> = {
   HCS: '#E8821E',
