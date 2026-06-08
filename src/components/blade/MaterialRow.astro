@@ -1,6 +1,6 @@
 ---
-import { MATERIAL_LABELS } from '@/lib/constants';
 import Icon from '@/components/icons/Icon.astro';
+import { MATERIAL_LABELS } from '@/lib/constants';
 import type { CutMaterialKey } from '@/types/catalog';
 
 interface Props {
@@ -9,6 +9,7 @@ interface Props {
 
 const { materials } = Astro.props;
 ---
+
 <div class="mat-row">
   {materials.map((key) => (
     <div class="mat-cell">

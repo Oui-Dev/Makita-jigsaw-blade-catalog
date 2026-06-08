@@ -11,6 +11,7 @@ interface Props {
 const { name, size = 24, class: className = 'ico' } = Astro.props;
 const inner = ICON_SVGS[name];
 ---
+
 <svg
   class={className}
   width={size}

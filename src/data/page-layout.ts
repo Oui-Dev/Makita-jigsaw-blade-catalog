@@ -1,5 +1,5 @@
-import type { DocumentPage } from '@/types/catalog';
 import { bladeRefs } from '@/data/blades';
+import type { DocumentPage } from '@/types/catalog';
 
 const BLADES_PER_PAGE = 4;
 
@@ -19,7 +19,7 @@ const detailPages: DocumentPage[] = chunk(bladeRefs, BLADES_PER_PAGE).map((refs,
       ? {
           num: '03',
           title: 'Fiches detaillees par reference',
-          desc: "Une fiche complete par lame, par ordre de reference.",
+          desc: 'Une fiche complete par lame, par ordre de reference.',
         }
       : undefined,
 }));

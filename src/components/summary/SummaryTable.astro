@@ -1,10 +1,11 @@
 ---
-import { bladeRefs, blades } from '@/data/blades';
 import MatBadge from '@/components/shared/MatBadge.astro';
 import SummaryCheck from '@/components/shared/SummaryCheck.astro';
+import { bladeRefs, blades } from '@/data/blades';
 
 const rows = bladeRefs.map((ref) => blades[ref].summary).filter((row) => row != null);
 ---
+
 <div class="sec-head">
   <span class="num">02</span>
   <h2>Tableau recapitulatif</h2>

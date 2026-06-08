@@ -5,8 +5,17 @@ interface Props {
 
 const { sawPath } = Astro.props;
 ---
-<svg class="saw" width="120" height="20" viewBox="0 0 144 30" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
-  <rect x="4" y="22" width="136" height="4" rx="1.4" fill="currentColor" opacity="0.16"/>
+
+<svg
+  class="saw"
+  width="120"
+  height="20"
+  viewBox="0 0 144 30"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-hidden="true"
+>
+  <rect x="4" y="22" width="136" height="4" rx="1.4" fill="currentColor" opacity="0.16" />
   <path
     d={sawPath}
     fill="currentColor"

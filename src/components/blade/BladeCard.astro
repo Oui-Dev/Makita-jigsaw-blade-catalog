@@ -1,10 +1,10 @@
 ---
-import type { BladeRecord } from '@/types/catalog';
-import MatBadge from '@/components/shared/MatBadge.astro';
-import Icon from '@/components/icons/Icon.astro';
 import BladeFeatures from '@/components/blade/BladeFeatures.astro';
 import MaterialRow from '@/components/blade/MaterialRow.astro';
 import SawBladeSvg from '@/components/blade/SawBladeSvg.astro';
+import Icon from '@/components/icons/Icon.astro';
+import MatBadge from '@/components/shared/MatBadge.astro';
+import type { BladeRecord } from '@/types/catalog';
 
 interface Props {
   blade: BladeRecord;
@@ -12,6 +12,7 @@ interface Props {
 
 const { blade } = Astro.props;
 ---
+
 <div class="card">
   <div class="top">
     <div class="id">
@@ -20,7 +21,9 @@ const { blade } = Astro.props;
     </div>
     <div class="name">
       <b>{blade.name}</b>
-      <span class="len">Longueur totale {blade.length} &middot; Longueur utile {blade.usefulLength}</span>
+      <span class="len">
+        Longueur totale {blade.length} &middot; Longueur utile {blade.usefulLength}
+      </span>
     </div>
     <BladeFeatures features={blade.features} />
   </div>

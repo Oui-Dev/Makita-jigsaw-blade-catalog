@@ -1,6 +1,6 @@
 ---
-import type { BladeFeatures, IconKey } from '@/types/catalog';
 import Icon from '@/components/icons/Icon.astro';
+import type { BladeFeatures, IconKey } from '@/types/catalog';
 
 interface Props {
   features: BladeFeatures;
@@ -16,6 +16,7 @@ const items: { key: keyof BladeFeatures; icon: IconKey; label: string }[] = [
   { key: 'lubrication', icon: 'lubrication', label: 'Lubrif.' },
 ];
 ---
+
 <div class="feats">
   {items.map((item) => (
     <div class={`feat ${features[item.key] ? 'on' : 'off'}`}>
