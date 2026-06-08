@@ -1,4 +1,8 @@
 ---
+import packageJson from '../../../package.json';
+
+const { editionDate } = packageJson;
+
 const compatibleModelGroups = [
   {
     label: 'Filaire',
@@ -67,7 +71,7 @@ const compatibleModelGroups = [
       <span class="stat-label">Références</span>
     </div>
     <div>
-      <span class="stat-value">08/06/2026</span>
+      <span class="stat-value">{editionDate}</span>
       <span class="stat-label">Édition</span>
     </div>
   </div>

@@ -18,7 +18,6 @@ Catalogue imprimable des lames de scie sauteuse Makita (emmanchement en T), comp
 | `npm run dev` | Prévisualisation locale avec rechargement |
 | `npm run build` | Vérification TypeScript + build dans `dist/` |
 | `npm run typecheck` | Diagnostic TypeScript uniquement |
-| `npm run export` | Génère `Makita_Lames_Scie_Sauteuse_DJV185Z.html` (après build) |
 
 ## Modifier le catalogue
 
