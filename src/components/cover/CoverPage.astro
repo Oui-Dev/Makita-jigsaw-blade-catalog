@@ -15,6 +15,7 @@ import { catalogMeta } from '@/data/catalog-meta';
       <path d="M52 6h16v26l-6 6v8h-4v-8l-6-6z" />
       <path d="M52 52h16v188l-8 14-8-14z" />
     </g>
+
     <g fill="#fff">
       <path
         d="M68 60l10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0 -10 8 10 0
@@ -22,13 +23,27 @@ import { catalogMeta } from '@/data/catalog-meta';
       />
     </g>
   </svg>
+
   <div class="kicker">{catalogMeta.kicker}</div>
+
   <h1>{catalogMeta.heading}</h1>
+
   <div class="subtitle">{catalogMeta.subtitle}</div>
+
   <div class="machine">
-    <span>{catalogMeta.machineLabel}</span> <b>{catalogMeta.machineModel}</b>
-    <span style="opacity:.8">{catalogMeta.machineNote}</span>
+    <div class="machine-head">
+      <span>Modèle compatible</span>
+      <span class="machine-note">(fixation par baionnette / Type B)</span>
+    </div>
+
+    {catalogMeta.compatibleModelGroups.map((group) => (
+      <div class="machine-group">
+        <span class="machine-group-label">{group.label}</span>
+        <span class="machine-group-models">{group.models.join(', ')}</span>
+      </div>
+    ))}
   </div>
+
   <div class="meta">
     {catalogMeta.stats.map((s) => (
       <div>

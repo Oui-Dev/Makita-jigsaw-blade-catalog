@@ -188,6 +188,7 @@ export const usageIndex = {
     },
   ],
   noteHtml:
-    '\n    Les anciennes lames Makita a queue universelle (serie numerotee a code A-858xx) ne sont pas compatibles avec la fixation\n    par baionnette de la DJV185Z et ne figurent pas dans cet index. Seules les lames a emmanchement en T (serie B, Bayonet type) sont retenues.\n  ',
-  footLine: 'Guide des lames de scie sauteuse Makita (queue en T) · Compatible DJV185Z · Edition du 07/06/2026',
+    '\n    Les anciennes lames Makita a queue universelle (serie numerotee a code A-858xx) ne sont pas compatibles avec la fixation\n    par baionnette (type B) des scies sauteuses Makita compatibles et ne figurent pas dans cet index. Seules les lames a emmanchement en T (serie B, Bayonet type) sont retenues.\n  ',
+  footLine:
+    'Guide des lames de scie sauteuse Makita (queue en T) · Compatible scies Makita emmanchement T (type B) · Edition du 08/06/2026',
 } as const;
