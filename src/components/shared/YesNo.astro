@@ -1,8 +1,0 @@
----
-interface Props {
-  value: boolean;
-}
-
-const { value } = Astro.props;
----
-<span class={`yn ${value ? 'y' : 'n'}`}>{value ? 'Oui' : 'Non'}</span>

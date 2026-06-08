@@ -14,9 +14,19 @@ body{
 .mono{font-family:"DejaVu Sans Mono","Liberation Mono",monospace;}
 .page{
   position:relative; width:186mm; min-height:262mm; margin:0 auto;
-  padding:0; page-break-after:always; overflow:hidden;
+  padding:0; overflow:hidden;
 }
-.page:last-child{page-break-after:auto;}
+.page {
+  page-break-after: auto;
+  break-after: auto;
+}
+
+.page + .page {
+  break-before: page;
+  page-break-before: always;
+}
+
+
 h1,h2,h3,h4{margin:0; font-weight:700; letter-spacing:-.01em;}
 .ico{vertical-align:middle; color:inherit;}
 .saw{display:block;}
@@ -95,8 +105,7 @@ table.sum .ref{font-family:"DejaVu Sans Mono",monospace; font-weight:700; white-
   border-radius:4px; color:#fff; font-weight:700; font-size:8.6px;
   font-family:"DejaVu Sans Mono",monospace;
 }
-.yn{font-weight:700;}
-.yn.y{color:var(--ok);} .yn.n{color:var(--muted);}
+.sum-check{color:var(--ok); display:inline-block; vertical-align:middle;}
 .fam-tag{
   display:inline-block; font-size:8px; text-transform:uppercase; letter-spacing:.05em;
   color:var(--teal-dd); font-weight:700;

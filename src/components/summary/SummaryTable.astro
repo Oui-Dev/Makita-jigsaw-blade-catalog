@@ -1,9 +1,7 @@
 ---
 import { bladeRefs, blades } from '@/data/blades';
-import { summaryNoteHtml } from '@/data/summary';
 import MatBadge from '@/components/shared/MatBadge.astro';
-import YesNo from '@/components/shared/YesNo.astro';
-import Note from '@/components/layout/Note.astro';
+import SummaryCheck from '@/components/shared/SummaryCheck.astro';
 
 const rows = bladeRefs.map((ref) => blades[ref].summary).filter((row) => row != null);
 ---
@@ -34,12 +32,11 @@ const rows = bladeRefs.map((ref) => blades[ref].summary).filter((row) => row != 
         <td class="c">{row.tpi}</td>
         <td class="c">{row.length}</td>
         <td>{row.mainMaterials}</td>
-        <td class="c"><YesNo value={row.fast} /></td>
-        <td class="c"><YesNo value={row.clean} /></td>
-        <td class="c"><YesNo value={row.curved} /></td>
-        <td class="c"><YesNo value={row.lubrication} /></td>
+        <td class="c"><SummaryCheck value={row.fast} /></td>
+        <td class="c"><SummaryCheck value={row.clean} /></td>
+        <td class="c"><SummaryCheck value={row.curved} /></td>
+        <td class="c"><SummaryCheck value={row.lubrication} /></td>
       </tr>
     ))}
   </tbody>
 </table>
-<Note html={summaryNoteHtml} />

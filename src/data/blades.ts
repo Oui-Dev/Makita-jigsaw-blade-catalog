@@ -1390,7 +1390,7 @@ export const blades: Record<string, BladeRecord> = {
     "summary": {
       "ref": "B-60",
       "material": "TCT",
-      "tpi": "Sans denture (grain carbure)",
+      "tpi": "Grain carbure",
       "length": "76 mm",
       "mainMaterials": "Carrelage / Fibre",
       "fast": false,
@@ -1428,7 +1428,7 @@ export const blades: Record<string, BladeRecord> = {
     "summary": {
       "ref": "B-61",
       "material": "TCT",
-      "tpi": "Sans denture (grain carbure)",
+      "tpi": "Grain carbure",
       "length": "100 mm",
       "mainMaterials": "Carrelage / Fibre",
       "fast": false,
@@ -1466,7 +1466,7 @@ export const blades: Record<string, BladeRecord> = {
     "summary": {
       "ref": "B-K",
       "material": "HCS",
-      "tpi": "Sans denture (lame couteau)",
+      "tpi": "Lame couteau",
       "length": "Non doc.",
       "mainMaterials": "Cuir / Mousse",
       "fast": false,
