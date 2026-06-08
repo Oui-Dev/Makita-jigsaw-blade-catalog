@@ -17,7 +17,7 @@ export const documentPages: DocumentPage[] = [
       {
         "kind": "family",
         "name": "Bois, contreplaque et plastiques",
-        "slug": "bois-contreplaque-plastiques",
+        "slug": "wood-plywood-plastics",
         "count": "15 reference(s)"
       },
       {
@@ -118,7 +118,7 @@ export const documentPages: DocumentPage[] = [
       {
         "kind": "family",
         "name": "Plastiques et metaux non ferreux",
-        "slug": "plastiques-metaux-non-ferreux",
+        "slug": "plastics-non-ferrous-metals",
         "count": "3 reference(s)"
       },
       {
@@ -142,7 +142,7 @@ export const documentPages: DocumentPage[] = [
       {
         "kind": "family",
         "name": "Metal (acier, inox, non ferreux)",
-        "slug": "metal-acier-inox",
+        "slug": "metal-steel-stainless",
         "count": "14 reference(s)"
       },
       {
@@ -234,7 +234,7 @@ export const documentPages: DocumentPage[] = [
       {
         "kind": "family",
         "name": "Stratifie et parquet",
-        "slug": "stratifie-parquet",
+        "slug": "laminate-flooring",
         "count": "2 reference(s)"
       },
       {
@@ -254,7 +254,7 @@ export const documentPages: DocumentPage[] = [
       {
         "kind": "family",
         "name": "Usages speciaux",
-        "slug": "usages-speciaux",
+        "slug": "special-uses",
         "count": "3 reference(s)"
       },
       {

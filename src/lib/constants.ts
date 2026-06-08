@@ -1,4 +1,4 @@
-import type { MaterialCode } from '@/types/catalog';
+import type { CutMaterialKey, MaterialCode } from '@/types/catalog';
 
 export const MATERIAL_COLORS: Record<MaterialCode, string> = {
   HCS: '#E8821E',
@@ -7,18 +7,19 @@ export const MATERIAL_COLORS: Record<MaterialCode, string> = {
   TCT: '#3A3F45',
 };
 
-export const MATERIAL_LABELS: Record<string, string> = {
-  'bois-tendre': 'Bois tendre',
-  'bois-dur': 'Bois dur',
-  contreplaque: 'Contreplaque',
-  'mdf-agglomere': 'MDF / Agglomere',
-  'stratifie-parquet': 'Stratifie / Parquet',
+/** Dev keys → user-facing French labels (printed in the catalog). */
+export const MATERIAL_LABELS: Record<CutMaterialKey, string> = {
+  softwood: 'Bois tendre',
+  hardwood: 'Bois dur',
+  plywood: 'Contreplaque',
+  'mdf-particleboard': 'MDF / Agglomere',
+  'laminate-flooring': 'Stratifie / Parquet',
   pvc: 'PVC',
-  plastique: 'Plastique',
-  aluminium: 'Aluminium',
-  acier: 'Acier / Acier doux',
-  inox: 'Inox',
-  'metaux-non-ferreux': 'Metaux non ferreux',
-  'carrelage-fibre-ciment': 'Carrelage / Fibre de verre / Ciment',
-  'cuir-mousse': 'Cuir / Caoutchouc / Carton / Mousse',
+  plastic: 'Plastique',
+  aluminum: 'Aluminium',
+  steel: 'Acier / Acier doux',
+  'stainless-steel': 'Inox',
+  'non-ferrous-metal': 'Metaux non ferreux',
+  'tile-fiberglass-cement': 'Carrelage / Fibre de verre / Ciment',
+  'leather-rubber-foam': 'Cuir / Caoutchouc / Carton / Mousse',
 };

@@ -1,9 +1,10 @@
 ---
 import { MATERIAL_LABELS } from '@/lib/constants';
 import Icon from '@/components/icons/Icon.astro';
+import type { CutMaterialKey } from '@/types/catalog';
 
 interface Props {
-  materials: string[];
+  materials: CutMaterialKey[];
 }
 
 const { materials } = Astro.props;
@@ -12,7 +13,7 @@ const { materials } = Astro.props;
   {materials.map((key) => (
     <div class="mat-cell">
       <span class="mic"><Icon name={key} size={22} /></span>
-      <span class="mn">{MATERIAL_LABELS[key] ?? key}</span>
+      <span class="mn">{MATERIAL_LABELS[key]}</span>
     </div>
   ))}
 </div>

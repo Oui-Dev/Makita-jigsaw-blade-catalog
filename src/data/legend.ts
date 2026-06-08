@@ -39,27 +39,27 @@ export const legendData = {
       "items": [
         {
           "kind": "feature",
-          "iconKey": "coupe-rapide",
+          "iconKey": "fast-cut",
           "label": "Coupe rapide"
         },
         {
           "kind": "feature",
-          "iconKey": "coupe-propre",
+          "iconKey": "clean-cut",
           "label": "Coupe propre"
         },
         {
           "kind": "feature",
-          "iconKey": "coupe-courbe",
+          "iconKey": "curved-cut",
           "label": "Coupe courbe"
         },
         {
           "kind": "feature",
-          "iconKey": "coupe-droite",
+          "iconKey": "straight-cut",
           "label": "Coupe droite"
         },
         {
           "kind": "feature",
-          "iconKey": "lubrification",
+          "iconKey": "lubrication",
           "label": "Lubrification recommandee"
         }
       ],
@@ -75,17 +75,17 @@ export const legendData = {
         },
         {
           "kind": "spec",
-          "iconKey": "longueur-lame",
+          "iconKey": "blade-length",
           "label": "Longueur de lame"
         },
         {
           "kind": "spec",
-          "iconKey": "epaisseur-coupe",
+          "iconKey": "cut-thickness",
           "label": "Epaisseur de coupe"
         },
         {
           "kind": "spec",
-          "iconKey": "type-denture",
+          "iconKey": "tooth-type",
           "label": "Type de denture"
         }
       ],
@@ -96,31 +96,31 @@ export const legendData = {
       "items": [
         {
           "kind": "cut-material",
-          "iconKey": "bois-tendre",
+          "iconKey": "softwood",
           "label": "Bois tendre",
           "desc": "Planches et panneaux en bois tendre"
         },
         {
           "kind": "cut-material",
-          "iconKey": "bois-dur",
+          "iconKey": "hardwood",
           "label": "Bois dur",
           "desc": "Essences dures, bois massif dense"
         },
         {
           "kind": "cut-material",
-          "iconKey": "contreplaque",
+          "iconKey": "plywood",
           "label": "Contreplaque",
           "desc": "Panneaux contreplaques multiplis"
         },
         {
           "kind": "cut-material",
-          "iconKey": "mdf-agglomere",
+          "iconKey": "mdf-particleboard",
           "label": "MDF / Agglomere",
           "desc": "MDF, panneaux de particules, agglomere"
         },
         {
           "kind": "cut-material",
-          "iconKey": "stratifie-parquet",
+          "iconKey": "laminate-flooring",
           "label": "Stratifie / Parquet",
           "desc": "Sols stratifies, parquet, placages decoratifs"
         },
@@ -132,43 +132,43 @@ export const legendData = {
         },
         {
           "kind": "cut-material",
-          "iconKey": "plastique",
+          "iconKey": "plastic",
           "label": "Plastique",
           "desc": "Plastiques, PMMA, composites"
         },
         {
           "kind": "cut-material",
-          "iconKey": "aluminium",
+          "iconKey": "aluminum",
           "label": "Aluminium",
           "desc": "Profiles et toles aluminium"
         },
         {
           "kind": "cut-material",
-          "iconKey": "acier",
+          "iconKey": "steel",
           "label": "Acier / Acier doux",
           "desc": "Acier doux, toles fines"
         },
         {
           "kind": "cut-material",
-          "iconKey": "inox",
+          "iconKey": "stainless-steel",
           "label": "Inox",
           "desc": "Acier inoxydable"
         },
         {
           "kind": "cut-material",
-          "iconKey": "metaux-non-ferreux",
+          "iconKey": "non-ferrous-metal",
           "label": "Metaux non ferreux",
           "desc": "Cuivre, laiton, bronze, zinc"
         },
         {
           "kind": "cut-material",
-          "iconKey": "carrelage-fibre-ciment",
+          "iconKey": "tile-fiberglass-cement",
           "label": "Carrelage / Fibre de verre / Ciment",
           "desc": "Carrelage, ceramique, fibrociment, fibre de verre"
         },
         {
           "kind": "cut-material",
-          "iconKey": "cuir-mousse",
+          "iconKey": "leather-rubber-foam",
           "label": "Cuir / Caoutchouc / Carton / Mousse",
           "desc": "Cuir, caoutchouc, mousse, carton, liege"
         }

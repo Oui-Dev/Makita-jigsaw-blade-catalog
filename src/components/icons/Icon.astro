@@ -1,14 +1,15 @@
 ---
 import { ICON_SVGS } from '@/lib/icon-svgs';
+import type { IconKey } from '@/types/catalog';
 
 interface Props {
-  name: string;
+  name: IconKey;
   size?: number;
   class?: string;
 }
 
 const { name, size = 24, class: className = 'ico' } = Astro.props;
-const inner = ICON_SVGS[name] ?? '';
+const inner = ICON_SVGS[name];
 ---
 <svg
   class={className}

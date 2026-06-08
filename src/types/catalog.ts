@@ -1,11 +1,45 @@
 export type MaterialCode = 'HCS' | 'HSS' | 'BiM' | 'TCT';
 
+export type IconKey =
+  | 'fast-cut'
+  | 'clean-cut'
+  | 'curved-cut'
+  | 'straight-cut'
+  | 'lubrication'
+  | 'tpi'
+  | 'blade-length'
+  | 'cut-thickness'
+  | 'tooth-type'
+  | CutMaterialKey;
+
+export type CutMaterialKey =
+  | 'softwood'
+  | 'hardwood'
+  | 'plywood'
+  | 'mdf-particleboard'
+  | 'laminate-flooring'
+  | 'pvc'
+  | 'plastic'
+  | 'aluminum'
+  | 'steel'
+  | 'stainless-steel'
+  | 'non-ferrous-metal'
+  | 'tile-fiberglass-cement'
+  | 'leather-rubber-foam';
+
+export type FamilySlug =
+  | 'wood-plywood-plastics'
+  | 'plastics-non-ferrous-metals'
+  | 'metal-steel-stainless'
+  | 'laminate-flooring'
+  | 'special-uses';
+
 export interface BladeFeatures {
-  rapide: boolean;
-  propre: boolean;
-  courbe: boolean;
-  droite: boolean;
-  lubrif: boolean;
+  fast: boolean;
+  clean: boolean;
+  curved: boolean;
+  straight: boolean;
+  lubrication: boolean;
 }
 
 export interface SummaryRow {
@@ -14,10 +48,10 @@ export interface SummaryRow {
   tpi: string;
   length: string;
   mainMaterials: string;
-  rapide: boolean;
-  propre: boolean;
-  courbe: boolean;
-  lubrif: boolean;
+  fast: boolean;
+  clean: boolean;
+  curved: boolean;
+  lubrication: boolean;
 }
 
 export interface BladeRecord {
@@ -34,10 +68,10 @@ export interface BladeRecord {
   cutThickness: string | null;
   observations: string;
   observationsHtml: string;
-  materials: string[];
+  materials: CutMaterialKey[];
   features: BladeFeatures;
   sawPath: string;
-  family: string;
+  family: FamilySlug;
   summary?: SummaryRow;
 }
 
@@ -48,7 +82,7 @@ export interface SectionHeadData {
 }
 
 export type PageBlock =
-  | { kind: 'family'; name: string; slug: string; count: string }
+  | { kind: 'family'; name: string; slug: FamilySlug; count: string }
   | { kind: 'blade'; ref: string };
 
 export type DocumentPage =

@@ -5,10 +5,10 @@ export const summaryRows = [
     "tpi": "9",
     "length": "100 mm",
     "mainMaterials": "Bois tendre, Contreplaque, Plastique",
-    "rapide": true,
-    "propre": false,
-    "courbe": false,
-    "lubrif": false
+    "fast": true,
+    "clean": false,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-10S",
@@ -16,10 +16,10 @@ export const summaryRows = [
     "tpi": "13",
     "length": "92 mm",
     "mainMaterials": "Bois tendre, Contreplaque",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-11",
@@ -27,10 +27,10 @@ export const summaryRows = [
     "tpi": "9",
     "length": "100 mm",
     "mainMaterials": "Bois tendre, Contreplaque, Plastique",
-    "rapide": true,
-    "propre": false,
-    "courbe": false,
-    "lubrif": false
+    "fast": true,
+    "clean": false,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-12",
@@ -38,10 +38,10 @@ export const summaryRows = [
     "tpi": "6",
     "length": "100 mm",
     "mainMaterials": "Bois tendre, Contreplaque, Plastique",
-    "rapide": true,
-    "propre": false,
-    "courbe": false,
-    "lubrif": false
+    "fast": true,
+    "clean": false,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-13",
@@ -49,10 +49,10 @@ export const summaryRows = [
     "tpi": "8",
     "length": "105 mm",
     "mainMaterials": "Bois tendre, Contreplaque, Plastique",
-    "rapide": true,
-    "propre": false,
-    "courbe": false,
-    "lubrif": false
+    "fast": true,
+    "clean": false,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "BR-13",
@@ -60,10 +60,10 @@ export const summaryRows = [
     "tpi": "9",
     "length": "100 mm",
     "mainMaterials": "Bois tendre, Contreplaque",
-    "rapide": true,
-    "propre": false,
-    "courbe": false,
-    "lubrif": false
+    "fast": true,
+    "clean": false,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-14",
@@ -71,10 +71,10 @@ export const summaryRows = [
     "tpi": "18",
     "length": "76 mm",
     "mainMaterials": "Bois tendre, Contreplaque, Plastique",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-15",
@@ -82,10 +82,10 @@ export const summaryRows = [
     "tpi": "12",
     "length": "76 mm",
     "mainMaterials": "Bois tendre, Contreplaque, Plastique",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-16",
@@ -93,10 +93,10 @@ export const summaryRows = [
     "tpi": "6",
     "length": "100 mm",
     "mainMaterials": "Bois tendre, Plastique",
-    "rapide": true,
-    "propre": false,
-    "courbe": false,
-    "lubrif": false
+    "fast": true,
+    "clean": false,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-16L",
@@ -104,10 +104,10 @@ export const summaryRows = [
     "tpi": "6",
     "length": "150 mm",
     "mainMaterials": "Bois tendre, Plastique",
-    "rapide": true,
-    "propre": false,
-    "courbe": false,
-    "lubrif": false
+    "fast": true,
+    "clean": false,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-17",
@@ -115,10 +115,10 @@ export const summaryRows = [
     "tpi": "6",
     "length": "100 mm",
     "mainMaterials": "Bois tendre, Contreplaque, Plastique",
-    "rapide": true,
-    "propre": false,
-    "courbe": true,
-    "lubrif": false
+    "fast": true,
+    "clean": false,
+    "curved": true,
+    "lubrication": false
   },
   {
     "ref": "B-18",
@@ -126,10 +126,10 @@ export const summaryRows = [
     "tpi": "14",
     "length": "77 mm",
     "mainMaterials": "Bois tendre, Contreplaque, Plastique",
-    "rapide": false,
-    "propre": true,
-    "courbe": true,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": true,
+    "lubrication": false
   },
   {
     "ref": "B-19",
@@ -137,10 +137,10 @@ export const summaryRows = [
     "tpi": "12",
     "length": "90 mm",
     "mainMaterials": "Bois tendre, Contreplaque, Plastique",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-19S",
@@ -148,10 +148,10 @@ export const summaryRows = [
     "tpi": "12",
     "length": "67 mm",
     "mainMaterials": "Bois tendre, Contreplaque, Plastique",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-21",
@@ -159,10 +159,10 @@ export const summaryRows = [
     "tpi": "12",
     "length": "100 mm",
     "mainMaterials": "Non ferreux, Aluminium, Plastique",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-23",
@@ -170,10 +170,10 @@ export const summaryRows = [
     "tpi": "14",
     "length": "75 mm",
     "mainMaterials": "Plastique, Contreplaque, Stratifie / Parquet, Bois tendre",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-25",
@@ -181,10 +181,10 @@ export const summaryRows = [
     "tpi": "9",
     "length": "100 mm",
     "mainMaterials": "Bois tendre, Plastique, Acier doux",
-    "rapide": true,
-    "propre": false,
-    "courbe": false,
-    "lubrif": true
+    "fast": true,
+    "clean": false,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-22",
@@ -192,10 +192,10 @@ export const summaryRows = [
     "tpi": "24",
     "length": "50 mm",
     "mainMaterials": "Inox, Acier doux, Non ferreux, Plastique",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-22S",
@@ -203,10 +203,10 @@ export const summaryRows = [
     "tpi": "24",
     "length": "57 mm",
     "mainMaterials": "Acier doux, Non ferreux, Contreplaque",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-24",
@@ -214,10 +214,10 @@ export const summaryRows = [
     "tpi": "32",
     "length": "100 mm",
     "mainMaterials": "Acier doux, Plastique",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-26",
@@ -225,10 +225,10 @@ export const summaryRows = [
     "tpi": "9",
     "length": "100 mm",
     "mainMaterials": "Bois dur, Plastique, Aluminium, Acier doux",
-    "rapide": true,
-    "propre": false,
-    "courbe": true,
-    "lubrif": true
+    "fast": true,
+    "clean": false,
+    "curved": true,
+    "lubrication": true
   },
   {
     "ref": "B-27",
@@ -236,10 +236,10 @@ export const summaryRows = [
     "tpi": "24",
     "length": "100 mm",
     "mainMaterials": "Non ferreux, Aluminium",
-    "rapide": false,
-    "propre": true,
-    "courbe": true,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": true,
+    "lubrication": true
   },
   {
     "ref": "B-28",
@@ -247,10 +247,10 @@ export const summaryRows = [
     "tpi": "16",
     "length": "64 mm",
     "mainMaterials": "Acier doux, Non ferreux",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-29",
@@ -258,10 +258,10 @@ export const summaryRows = [
     "tpi": "16",
     "length": "41 mm",
     "mainMaterials": "Bois tendre, Contreplaque",
-    "rapide": false,
-    "propre": true,
-    "courbe": true,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": true,
+    "lubrication": false
   },
   {
     "ref": "B-30",
@@ -269,10 +269,10 @@ export const summaryRows = [
     "tpi": "24",
     "length": "76 mm",
     "mainMaterials": "Acier doux, Non ferreux, Contreplaque",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-32",
@@ -280,10 +280,10 @@ export const summaryRows = [
     "tpi": "18",
     "length": "100 mm",
     "mainMaterials": "Acier doux, Inox, Non ferreux",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-33",
@@ -291,10 +291,10 @@ export const summaryRows = [
     "tpi": "14",
     "length": "132 mm",
     "mainMaterials": "Acier doux, Inox, Non ferreux",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-34",
@@ -302,10 +302,10 @@ export const summaryRows = [
     "tpi": "18",
     "length": "50 mm",
     "mainMaterials": "Acier doux, Inox, Non ferreux",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-35",
@@ -313,10 +313,10 @@ export const summaryRows = [
     "tpi": "14",
     "length": "150 mm",
     "mainMaterials": "Acier doux, Inox",
-    "rapide": false,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": false,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-50",
@@ -324,10 +324,10 @@ export const summaryRows = [
     "tpi": "8.5 - 10.6",
     "length": "75 mm",
     "mainMaterials": "Bois tendre, Bois dur, Contreplaque, MDF / Agglomere, ...",
-    "rapide": true,
-    "propre": true,
-    "courbe": false,
-    "lubrif": false
+    "fast": true,
+    "clean": true,
+    "curved": false,
+    "lubrication": false
   },
   {
     "ref": "B-51",
@@ -335,10 +335,10 @@ export const summaryRows = [
     "tpi": "9.8 - 18.1",
     "length": "75 mm",
     "mainMaterials": "Acier doux, Inox",
-    "rapide": true,
-    "propre": true,
-    "courbe": false,
-    "lubrif": true
+    "fast": true,
+    "clean": true,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-52",
@@ -346,10 +346,10 @@ export const summaryRows = [
     "tpi": "5.5 - 9.8",
     "length": "75 mm",
     "mainMaterials": "Bois tendre, Contreplaque, PVC, Plastique, ...",
-    "rapide": true,
-    "propre": false,
-    "courbe": false,
-    "lubrif": true
+    "fast": true,
+    "clean": false,
+    "curved": false,
+    "lubrication": true
   },
   {
     "ref": "B-53",
@@ -357,10 +357,10 @@ export const summaryRows = [
     "tpi": "15",
     "length": "82 mm",
     "mainMaterials": "Stratifie / Parquet, MDF / Agglomere, Contreplaque",
-    "rapide": false,
-    "propre": true,
-    "courbe": true,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": true,
+    "lubrication": false
   },
   {
     "ref": "B-54",
@@ -368,10 +368,10 @@ export const summaryRows = [
     "tpi": "15",
     "length": "82 mm",
     "mainMaterials": "Stratifie / Parquet, MDF / Agglomere, Contreplaque",
-    "rapide": false,
-    "propre": true,
-    "courbe": true,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": true,
+    "lubrication": false
   },
   {
     "ref": "B-60",
@@ -379,10 +379,10 @@ export const summaryRows = [
     "tpi": "Sans denture (grain carbure)",
     "length": "76 mm",
     "mainMaterials": "Carrelage / Fibre",
-    "rapide": false,
-    "propre": true,
-    "courbe": true,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": true,
+    "lubrication": false
   },
   {
     "ref": "B-61",
@@ -390,10 +390,10 @@ export const summaryRows = [
     "tpi": "Sans denture (grain carbure)",
     "length": "100 mm",
     "mainMaterials": "Carrelage / Fibre",
-    "rapide": false,
-    "propre": true,
-    "courbe": true,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": true,
+    "lubrication": false
   },
   {
     "ref": "B-K",
@@ -401,10 +401,10 @@ export const summaryRows = [
     "tpi": "Sans denture (lame couteau)",
     "length": "Non doc.",
     "mainMaterials": "Cuir / Mousse",
-    "rapide": false,
-    "propre": true,
-    "courbe": true,
-    "lubrif": false
+    "fast": false,
+    "clean": true,
+    "curved": true,
+    "lubrication": false
   }
 ] as const;
 export const summaryNoteHtml = "\n    Lecture : la couleur du badge indique le materiau de la lame (HCS orange, HSS bleu, BiM teal, TCT graphite).\n    Le detail complet de chaque reference (13 informations, epaisseurs, longueur utile, denture, equivalence Bosch, code de commande)\n    figure dans les fiches detaillees pages suivantes.\n  ";

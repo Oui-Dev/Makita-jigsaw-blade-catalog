@@ -1,27 +1,27 @@
 export const families = {
-  "bois-contreplaque-plastiques": {
+  "wood-plywood-plastics": {
     "name": "Bois, contreplaque et plastiques",
-    "slug": "bois-contreplaque-plastiques",
+    "slug": "wood-plywood-plastics",
     "count": "15 reference(s)"
   },
-  "plastiques-metaux-non-ferreux": {
+  "plastics-non-ferrous-metals": {
     "name": "Plastiques et metaux non ferreux",
-    "slug": "plastiques-metaux-non-ferreux",
+    "slug": "plastics-non-ferrous-metals",
     "count": "3 reference(s)"
   },
-  "metal-acier-inox": {
+  "metal-steel-stainless": {
     "name": "Metal (acier, inox, non ferreux)",
-    "slug": "metal-acier-inox",
+    "slug": "metal-steel-stainless",
     "count": "14 reference(s)"
   },
-  "stratifie-parquet": {
+  "laminate-flooring": {
     "name": "Stratifie et parquet",
-    "slug": "stratifie-parquet",
+    "slug": "laminate-flooring",
     "count": "2 reference(s)"
   },
-  "usages-speciaux": {
+  "special-uses": {
     "name": "Usages speciaux",
-    "slug": "usages-speciaux",
+    "slug": "special-uses",
     "count": "3 reference(s)"
   }
 } as const;

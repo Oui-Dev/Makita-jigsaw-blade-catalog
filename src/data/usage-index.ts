@@ -3,7 +3,7 @@ export const usageIndex = {
     {
       "title": "Bois",
       "countText": "20 lame(s)",
-      "iconKey": "bois-tendre",
+      "iconKey": "softwood",
       "refs": [
         "B-10",
         "B-10S",
@@ -30,7 +30,7 @@ export const usageIndex = {
     {
       "title": "Bois de finition",
       "countText": "9 lame(s)",
-      "iconKey": "bois-tendre",
+      "iconKey": "softwood",
       "refs": [
         "B-10S",
         "B-14",
@@ -46,7 +46,7 @@ export const usageIndex = {
     {
       "title": "Bois epais",
       "countText": "2 lame(s)",
-      "iconKey": "bois-dur",
+      "iconKey": "hardwood",
       "refs": [
         "B-13",
         "B-16L"
@@ -55,7 +55,7 @@ export const usageIndex = {
     {
       "title": "Contreplaque",
       "countText": "20 lame(s)",
-      "iconKey": "contreplaque",
+      "iconKey": "plywood",
       "refs": [
         "B-10",
         "B-10S",
@@ -82,7 +82,7 @@ export const usageIndex = {
     {
       "title": "MDF / Agglomere",
       "countText": "3 lame(s)",
-      "iconKey": "mdf-agglomere",
+      "iconKey": "mdf-particleboard",
       "refs": [
         "B-50",
         "B-53",
@@ -92,7 +92,7 @@ export const usageIndex = {
     {
       "title": "Stratifie",
       "countText": "3 lame(s)",
-      "iconKey": "stratifie-parquet",
+      "iconKey": "laminate-flooring",
       "refs": [
         "B-23",
         "B-53",
@@ -111,7 +111,7 @@ export const usageIndex = {
     {
       "title": "Plastique",
       "countText": "20 lame(s)",
-      "iconKey": "plastique",
+      "iconKey": "plastic",
       "refs": [
         "B-10",
         "B-11",
@@ -138,7 +138,7 @@ export const usageIndex = {
     {
       "title": "Aluminium",
       "countText": "4 lame(s)",
-      "iconKey": "aluminium",
+      "iconKey": "aluminum",
       "refs": [
         "B-21",
         "B-26",
@@ -149,7 +149,7 @@ export const usageIndex = {
     {
       "title": "Acier",
       "countText": "13 lame(s)",
-      "iconKey": "acier",
+      "iconKey": "steel",
       "refs": [
         "B-25",
         "B-22",
@@ -169,7 +169,7 @@ export const usageIndex = {
     {
       "title": "Inox",
       "countText": "7 lame(s)",
-      "iconKey": "inox",
+      "iconKey": "stainless-steel",
       "refs": [
         "B-22",
         "B-32",
@@ -183,7 +183,7 @@ export const usageIndex = {
     {
       "title": "Metaux non ferreux",
       "countText": "9 lame(s)",
-      "iconKey": "metaux-non-ferreux",
+      "iconKey": "non-ferrous-metal",
       "refs": [
         "B-21",
         "B-22",
@@ -199,7 +199,7 @@ export const usageIndex = {
     {
       "title": "Carrelage / Fibre de verre / Ciment",
       "countText": "2 lame(s)",
-      "iconKey": "carrelage-fibre-ciment",
+      "iconKey": "tile-fiberglass-cement",
       "refs": [
         "B-60",
         "B-61"
@@ -208,7 +208,7 @@ export const usageIndex = {
     {
       "title": "Coupe rapide",
       "countText": "13 lame(s)",
-      "iconKey": "coupe-rapide",
+      "iconKey": "fast-cut",
       "refs": [
         "B-10",
         "B-11",
@@ -228,7 +228,7 @@ export const usageIndex = {
     {
       "title": "Coupe propre",
       "countText": "26 lame(s)",
-      "iconKey": "coupe-propre",
+      "iconKey": "clean-cut",
       "refs": [
         "B-10S",
         "B-14",
@@ -261,7 +261,7 @@ export const usageIndex = {
     {
       "title": "Coupe courbe (chantournage)",
       "countText": "10 lame(s)",
-      "iconKey": "coupe-courbe",
+      "iconKey": "curved-cut",
       "refs": [
         "B-17",
         "B-18",

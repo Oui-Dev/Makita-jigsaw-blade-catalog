@@ -1,5 +1,5 @@
 ---
-import type { BladeFeatures } from '@/types/catalog';
+import type { BladeFeatures, IconKey } from '@/types/catalog';
 import Icon from '@/components/icons/Icon.astro';
 
 interface Props {
@@ -8,12 +8,12 @@ interface Props {
 
 const { features } = Astro.props;
 
-const items = [
-  { key: 'rapide' as const, icon: 'coupe-rapide', label: 'Rapide' },
-  { key: 'propre' as const, icon: 'coupe-propre', label: 'Propre' },
-  { key: 'courbe' as const, icon: 'coupe-courbe', label: 'Courbe' },
-  { key: 'droite' as const, icon: 'coupe-droite', label: 'Droite' },
-  { key: 'lubrif' as const, icon: 'lubrification', label: 'Lubrif.' },
+const items: { key: keyof BladeFeatures; icon: IconKey; label: string }[] = [
+  { key: 'fast', icon: 'fast-cut', label: 'Rapide' },
+  { key: 'clean', icon: 'clean-cut', label: 'Propre' },
+  { key: 'curved', icon: 'curved-cut', label: 'Courbe' },
+  { key: 'straight', icon: 'straight-cut', label: 'Droite' },
+  { key: 'lubrication', icon: 'lubrication', label: 'Lubrif.' },
 ];
 ---
 <div class="feats">
