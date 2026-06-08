@@ -9,7 +9,6 @@ Catalogue imprimable des lames de scie sauteuse Makita (emmanchement en T), comp
 - `src/lib/` — constantes, registre des icônes SVG (`icon-svgs.ts`)
 - `src/types/` — types TypeScript (`catalog.ts`)
 - `src/styles/print.css` — styles d'impression
-- `archive/` — HTML source de référence (migration initiale)
 
 ## Commandes
 
