@@ -6,9 +6,9 @@ export const ICON_SVGS: Record<IconKey, string> = {
   'clean-cut': `<path d="M12 2.8l1.9 5.3 5.3 1.9-5.3 1.9L12 17.2l-1.9-5.3L4.8 10l5.3-1.9z" fill="currentColor"/>
         <path d="M18.5 15l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z" fill="currentColor"/>`,
   'curved-cut': `<path d="M4 19c0-7.5 5.5-13 13-13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <path d="M12.5 6H17.5V11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`,
-  'straight-cut': `<path d="M3 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <path d="M14 7l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`,
+        <path d="M14.5 2.5l4.5 3.5-4.5 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`,
+  'straight-cut': `<path d="M12 21V7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M7 10l5-5 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`,
   lubrication: `<path d="M12 3c4 5.5 6 7.8 6 10.8A6 6 0 0 1 6 13.8C6 10.8 8 8.5 12 3z" fill="currentColor"/>
         <path d="M9.5 14.2a2.5 2.5 0 0 0 2 2.3" fill="none" stroke="#fff" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>`,
   tpi: `<path d="M3 16.5h18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
