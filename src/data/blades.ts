@@ -3,7 +3,6 @@ import type { BladeRecord } from '@/types/catalog';
 export const blades: Record<string, BladeRecord> = {
   'B-10': {
     ref: 'B-10',
-    pack: 'Boîte de 5',
     name: 'Finition rapide bois et contreplaqué',
     material: 'HCS',
     tpi: '9',
@@ -42,7 +41,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-10S': {
     ref: 'B-10S',
-    pack: 'Boîte de 5',
     name: 'Coupe sans éclats dans le bois (sans ponçage)',
     material: 'HCS',
     tpi: '13',
@@ -81,7 +79,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-11': {
     ref: 'B-11',
-    pack: 'Boîte de 5',
     name: 'Coupe rapide bois, contreplaqué et plastiques',
     material: 'HCS',
     tpi: '9',
@@ -119,7 +116,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-12': {
     ref: 'B-12',
-    pack: 'Boîte de 5',
     name: 'Coupe fine bois, contreplaqué et plastiques',
     material: 'HCS',
     tpi: '6',
@@ -157,7 +153,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-13': {
     ref: 'B-13',
-    pack: 'Boîte de 5',
     name: 'Coupe générale bois, contreplaqué et plastiques',
     material: 'HCS',
     tpi: '8',
@@ -196,7 +191,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'BR-13': {
     ref: 'BR-13',
-    pack: 'Boîte de 5',
     name: 'Coupe rapide bois et contreplaqué',
     material: 'HCS',
     tpi: '9',
@@ -234,7 +228,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-14': {
     ref: 'B-14',
-    pack: 'Boîte de 5',
     name: 'Matériaux fins, bois avec clous',
     material: 'HCS',
     tpi: '18',
@@ -272,7 +265,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-15': {
     ref: 'B-15',
-    pack: 'Boîte de 5',
     name: 'Coupe bois, contreplaqué et plastiques',
     material: 'HCS',
     tpi: '12',
@@ -310,7 +302,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-16': {
     ref: 'B-16',
-    pack: 'Boîte de 5',
     name: 'Coupe bois et plastiques',
     material: 'HCS',
     tpi: '6',
@@ -348,7 +339,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-16L': {
     ref: 'B-16L',
-    pack: 'Boîte de 5',
     name: 'Matériaux épais',
     material: 'HCS',
     tpi: '6',
@@ -386,7 +376,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-17': {
     ref: 'B-17',
-    pack: 'Boîte de 5',
     name: 'Coupe chantournée bois, contreplaqué, plastiques',
     material: 'HCS',
     tpi: '6',
@@ -424,7 +413,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-18': {
     ref: 'B-18',
-    pack: 'Boîte de 5',
     name: 'Coupe chantournée de finition bois et plastiques',
     material: 'HCS',
     tpi: '14',
@@ -462,7 +450,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-19': {
     ref: 'B-19',
-    pack: 'Boîte de 5',
     name: 'Coupe bois, contreplaqué et plastiques',
     material: 'HCS',
     tpi: '12',
@@ -500,7 +487,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-19S': {
     ref: 'B-19S',
-    pack: 'Boîte de 5',
     name: 'Coupe bois, contreplaqué et plastiques (court)',
     material: 'HCS',
     tpi: '12',
@@ -538,7 +524,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-50': {
     ref: 'B-50',
-    pack: 'Boîte de 5',
     name: 'Bois et plastiques, coupe nette et rapide (Super Express)',
     material: 'HCS',
     tpi: '8.5 - 10.6',
@@ -577,7 +562,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-21': {
     ref: 'B-21',
-    pack: 'Boîte de 5',
     name: 'Métaux non ferreux, dont aluminium',
     material: 'HCS',
     tpi: '12',
@@ -616,7 +600,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-23': {
     ref: 'B-23',
-    pack: 'Boîte de 5',
     name: 'Plastiques, contreplaqué, stratifiés, placages',
     material: 'HCS',
     tpi: '14',
@@ -654,7 +637,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-25': {
     ref: 'B-25',
-    pack: 'Boîte de 5',
     name: 'Bois, plastiques et acier doux',
     material: 'HCS',
     tpi: '9',
@@ -693,7 +675,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-22': {
     ref: 'B-22',
-    pack: 'Boîte de 5',
     name: 'Inox, plastiques durs, métaux non ferreux',
     material: 'HSS',
     tpi: '24',
@@ -731,7 +712,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-22S': {
     ref: 'B-22S',
-    pack: 'Boîte de 5',
     name: 'Contreplaqué, métaux légers et non ferreux (court)',
     material: 'HSS',
     tpi: '24',
@@ -769,7 +749,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-24': {
     ref: 'B-24',
-    pack: 'Boîte de 5',
     name: 'Acier doux, plastiques',
     material: 'HSS',
     tpi: '32',
@@ -807,7 +786,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-26': {
     ref: 'B-26',
-    pack: 'Boîte de 5',
     name: 'Coupe chantournée bois dur, plastiques, alu, acier doux',
     material: 'HSS',
     tpi: '9',
@@ -845,7 +823,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-27': {
     ref: 'B-27',
-    pack: 'Boîte de 5',
     name: 'Coupe chantournée métaux non ferreux (<= 3 mm)',
     material: 'HCS',
     tpi: '24',
@@ -883,7 +860,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-28': {
     ref: 'B-28',
-    pack: 'Boîte de 5',
     name: 'Acier doux (lame courte)',
     material: 'HSS',
     tpi: '16',
@@ -921,7 +897,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-29': {
     ref: 'B-29',
-    pack: 'Boîte de 5',
     name: 'Coupe chantournée dans le bois (lame courte)',
     material: 'HCS',
     tpi: '16',
@@ -959,7 +934,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-30': {
     ref: 'B-30',
-    pack: 'Boîte de 5',
     name: 'Contreplaqué, métaux légers et non ferreux',
     material: 'HSS',
     tpi: '24',
@@ -997,7 +971,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-32': {
     ref: 'B-32',
-    pack: 'Boîte de 5',
     name: 'Métal, profilés et tubes',
     material: 'HSS',
     tpi: '18',
@@ -1035,7 +1008,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-33': {
     ref: 'B-33',
-    pack: 'Boîte de 5',
     name: 'Plaque métallique moyenne, tubes et profilés',
     material: 'HSS',
     tpi: '14',
@@ -1074,7 +1046,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-34': {
     ref: 'B-34',
-    pack: 'Boîte de 5',
     name: 'Métal (lame courte)',
     material: 'HSS',
     tpi: '18',
@@ -1112,7 +1083,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-35': {
     ref: 'B-35',
-    pack: 'Boîte de 5',
     name: 'Métal épais (bi-metal, longue durée)',
     material: 'BiM',
     tpi: '14',
@@ -1150,7 +1120,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-51': {
     ref: 'B-51',
-    pack: 'Boîte de 5',
     name: 'Tôle et inox, coupe rapide et droite (Super Express)',
     material: 'HSS',
     tpi: '9.8 - 18.1',
@@ -1189,7 +1158,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-52': {
     ref: 'B-52',
-    pack: 'Boîte de 5',
     name: 'Universel bois / métal / alu / plastique (Super Express)',
     material: 'HSS',
     tpi: '5.5 - 9.8',
@@ -1228,7 +1196,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-53': {
     ref: 'B-53',
-    pack: 'Boîte de 5',
     name: 'Stratifié, coupe nette droite (bi-metal, longue durée)',
     material: 'BiM',
     tpi: '15',
@@ -1267,7 +1234,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-54': {
     ref: 'B-54',
-    pack: 'Boîte de 5',
     name: 'Stratifié, coupe nette en courbe (bi-metal, longue durée)',
     material: 'BiM',
     tpi: '15',
@@ -1306,7 +1272,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-60': {
     ref: 'B-60',
-    pack: 'Boîte de 3',
     name: 'Carrelage, fibre de verre, ciment (grain carbure)',
     material: 'TCT',
     tpi: 'Sans denture (grain carbure)',
@@ -1344,7 +1309,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-61': {
     ref: 'B-61',
-    pack: 'Boîte de 3',
     name: 'Carrelage, fibre de verre, ciment (grain carbure)',
     material: 'TCT',
     tpi: 'Sans denture (grain carbure)',
@@ -1382,7 +1346,6 @@ export const blades: Record<string, BladeRecord> = {
   },
   'B-K': {
     ref: 'B-K',
-    pack: 'Boîte de 1',
     name: 'Lame couteau : papier, liège, cuir, mousse, caoutchouc',
     material: 'HCS',
     tpi: 'Sans denture (lame couteau)',

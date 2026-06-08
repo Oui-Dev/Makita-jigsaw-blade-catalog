@@ -389,23 +389,14 @@ table.sum {
     background: var(--teal-d);
     color: #fff;
     padding: 8px 12px;
-    min-width: 88px;
+    min-width: 74px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    .blade-ref {
-      font-family: 'DejaVu Sans Mono', monospace;
-      font-size: 17px;
-      font-weight: 700;
-      line-height: 1;
-    }
-
-    .pack-label {
-      font-size: 8px;
-      opacity: 0.85;
-      margin-top: 2px;
-    }
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1;
   }
 
   .name {

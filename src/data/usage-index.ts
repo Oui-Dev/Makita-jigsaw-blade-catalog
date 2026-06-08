@@ -2,7 +2,6 @@ export const usageIndex = {
   entries: [
     {
       title: 'Bois',
-      countText: '20 lame(s)',
       iconKey: 'softwood',
       refs: [
         'B-10',
@@ -29,7 +28,6 @@ export const usageIndex = {
     },
     {
       title: 'Contreplaqué',
-      countText: '20 lame(s)',
       iconKey: 'plywood',
       refs: [
         'B-10',
@@ -56,37 +54,31 @@ export const usageIndex = {
     },
     {
       title: 'Bois (coupe propre)',
-      countText: '9 lame(s)',
       iconKey: 'softwood',
       refs: ['B-10S', 'B-14', 'B-15', 'B-18', 'B-19', 'B-19S', 'B-23', 'B-29', 'B-50'],
     },
     {
       title: 'Bois épais',
-      countText: '2 lame(s)',
       iconKey: 'hardwood',
       refs: ['B-13', 'B-16L'],
     },
     {
       title: 'MDF / Aggloméré',
-      countText: '3 lame(s)',
       iconKey: 'mdf-particleboard',
       refs: ['B-50', 'B-53', 'B-54'],
     },
     {
       title: 'Stratifié',
-      countText: '3 lame(s)',
       iconKey: 'laminate-flooring',
       refs: ['B-23', 'B-53', 'B-54'],
     },
     {
       title: 'PVC',
-      countText: '2 lame(s)',
       iconKey: 'pvc',
       refs: ['B-50', 'B-52'],
     },
     {
       title: 'Plastique',
-      countText: '20 lame(s)',
       iconKey: 'plastic',
       refs: [
         'B-10',
@@ -113,43 +105,36 @@ export const usageIndex = {
     },
     {
       title: 'Acier',
-      countText: '13 lame(s)',
       iconKey: 'steel',
       refs: ['B-25', 'B-22', 'B-22S', 'B-24', 'B-26', 'B-28', 'B-30', 'B-32', 'B-33', 'B-34', 'B-35', 'B-51', 'B-52'],
     },
     {
       title: 'Métaux non ferreux',
-      countText: '9 lame(s)',
       iconKey: 'non-ferrous-metal',
       refs: ['B-21', 'B-22', 'B-22S', 'B-27', 'B-28', 'B-30', 'B-32', 'B-33', 'B-34'],
     },
     {
       title: 'Inox',
-      countText: '7 lame(s)',
       iconKey: 'stainless-steel',
       refs: ['B-22', 'B-32', 'B-33', 'B-34', 'B-35', 'B-51', 'B-52'],
     },
     {
       title: 'Aluminium',
-      countText: '4 lame(s)',
       iconKey: 'aluminum',
       refs: ['B-21', 'B-26', 'B-27', 'B-52'],
     },
     {
       title: 'Carrelage / Fibre de verre / Ciment',
-      countText: '2 lame(s)',
       iconKey: 'tile-fiberglass-cement',
       refs: ['B-60', 'B-61'],
     },
     {
       title: 'Coupe rapide',
-      countText: '13 lame(s)',
       iconKey: 'fast-cut',
       refs: ['B-10', 'B-11', 'B-12', 'B-13', 'BR-13', 'B-16', 'B-16L', 'B-17', 'B-25', 'B-26', 'B-50', 'B-51', 'B-52'],
     },
     {
       title: 'Coupe propre',
-      countText: '26 lame(s)',
       iconKey: 'clean-cut',
       refs: [
         'B-10S',
@@ -182,7 +167,6 @@ export const usageIndex = {
     },
     {
       title: 'Coupe courbe (chantournage)',
-      countText: '10 lame(s)',
       iconKey: 'curved-cut',
       refs: ['B-17', 'B-18', 'B-26', 'B-27', 'B-29', 'B-53', 'B-54', 'B-60', 'B-61', 'B-K'],
     },

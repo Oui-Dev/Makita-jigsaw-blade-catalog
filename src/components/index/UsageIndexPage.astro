@@ -15,7 +15,7 @@ import { usageIndex } from '@/data/usage-index';
       <div class="idx-header">
         <span class="ico"><Icon name={entry.iconKey} size={20} /></span>
         {entry.title}
-        <span class="idx-count">{entry.countText}</span>
+        <span class="idx-count">{entry.refs.length} lame(s)</span>
       </div>
       <div class="idx-body">
         {entry.refs.map((ref) => (

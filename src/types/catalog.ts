@@ -56,7 +56,6 @@ export interface SummaryRow {
 
 export interface BladeRecord {
   ref: string;
-  pack: string;
   name: string;
   material: string;
   tpi: string;
