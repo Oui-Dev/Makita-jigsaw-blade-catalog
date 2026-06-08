@@ -18,8 +18,8 @@ const detailPages: DocumentPage[] = chunk(bladeRefs, BLADES_PER_PAGE).map((refs,
     i === 0
       ? {
           num: '03',
-          title: 'Fiches detaillees par reference',
-          desc: 'Une fiche complete par lame, par ordre de reference.',
+          title: 'Fiches détaillées par référence',
+          desc: 'Une fiche complète par lame, par ordre de référence.',
         }
       : undefined,
 }));

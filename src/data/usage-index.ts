@@ -28,7 +28,7 @@ export const usageIndex = {
       ],
     },
     {
-      title: 'Contreplaque',
+      title: 'Contreplaqué',
       countText: '20 lame(s)',
       iconKey: 'plywood',
       refs: [
@@ -61,19 +61,19 @@ export const usageIndex = {
       refs: ['B-10S', 'B-14', 'B-15', 'B-18', 'B-19', 'B-19S', 'B-23', 'B-29', 'B-50'],
     },
     {
-      title: 'Bois epais',
+      title: 'Bois épais',
       countText: '2 lame(s)',
       iconKey: 'hardwood',
       refs: ['B-13', 'B-16L'],
     },
     {
-      title: 'MDF / Agglomere',
+      title: 'MDF / Aggloméré',
       countText: '3 lame(s)',
       iconKey: 'mdf-particleboard',
       refs: ['B-50', 'B-53', 'B-54'],
     },
     {
-      title: 'Stratifie',
+      title: 'Stratifié',
       countText: '3 lame(s)',
       iconKey: 'laminate-flooring',
       refs: ['B-23', 'B-53', 'B-54'],
@@ -118,7 +118,7 @@ export const usageIndex = {
       refs: ['B-25', 'B-22', 'B-22S', 'B-24', 'B-26', 'B-28', 'B-30', 'B-32', 'B-33', 'B-34', 'B-35', 'B-51', 'B-52'],
     },
     {
-      title: 'Metaux non ferreux',
+      title: 'Métaux non ferreux',
       countText: '9 lame(s)',
       iconKey: 'non-ferrous-metal',
       refs: ['B-21', 'B-22', 'B-22S', 'B-27', 'B-28', 'B-30', 'B-32', 'B-33', 'B-34'],
@@ -188,7 +188,7 @@ export const usageIndex = {
     },
   ],
   noteHtml:
-    '\n    Les anciennes lames Makita a queue universelle (serie numerotee a code A-858xx) ne sont pas compatibles avec la fixation\n    par baionnette (type B) des scies sauteuses Makita compatibles et ne figurent pas dans cet index. Seules les lames a emmanchement en T (serie B, Bayonet type) sont retenues.\n  ',
+    '\n    Les anciennes lames Makita à queue universelle (série numérotée à code A-858xx) ne sont pas compatibles avec la fixation\n    par baionnette (type B) des scies sauteuses Makita compatibles et ne figurent pas dans cet index. Seules les lames à emmanchement en T (série B, Bayonet type) sont retenues.\n  ',
   footLine:
-    'Guide des lames de scie sauteuse Makita (queue en T) · Compatible scies Makita emmanchement T (type B) · Edition du 08/06/2026',
+    'Guide des lames de scie sauteuse Makita (queue en T) · Compatible scies Makita emmanchement T (type B) · Édition du 08/06/2026',
 } as const;

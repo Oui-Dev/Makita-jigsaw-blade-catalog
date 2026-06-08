@@ -1,7 +1,7 @@
 export const legendData = {
   blocks: [
     {
-      title: 'Materiau de la lame',
+      title: 'Matériau de la lame',
       items: [
         {
           kind: 'material',
@@ -14,28 +14,28 @@ export const legendData = {
           kind: 'material',
           code: 'HSS',
           label: 'HSS',
-          desc: 'Acier rapide (High Speed Steel) : metaux, aluminium, non-ferreux',
+          desc: 'Acier rapide (High Speed Steel) : métaux, aluminium, non-ferreux',
           color: '#1F6FB2',
         },
         {
           kind: 'material',
           code: 'BiM',
           label: 'BiM',
-          desc: 'Bi-metal (corps souple + dents HSS) : polyvalent, longue duree, anti-casse',
+          desc: 'Bi-metal (corps souple + dents HSS) : polyvalent, longue durée, anti-casse',
           color: '#0E9C8A',
         },
         {
           kind: 'material',
           code: 'TCT',
           label: 'TCT',
-          desc: 'Carbure de tungstene (grain/dents carbure) : materiaux abrasifs',
+          desc: 'Carbure de tungstène (grain/dents carbure) : matériaux abrasifs',
           color: '#3A3F45',
         },
       ],
       twoCol: false,
     },
     {
-      title: 'Caracteristiques de coupe',
+      title: 'Caractéristiques de coupe',
       items: [
         {
           kind: 'feature',
@@ -60,13 +60,13 @@ export const legendData = {
         {
           kind: 'feature',
           iconKey: 'lubrication',
-          label: 'Lubrification recommandee',
+          label: 'Lubrification recommandée',
         },
       ],
       twoCol: false,
     },
     {
-      title: 'Specifications techniques',
+      title: 'Spécifications techniques',
       items: [
         {
           kind: 'spec',
@@ -81,7 +81,7 @@ export const legendData = {
         {
           kind: 'spec',
           iconKey: 'cut-thickness',
-          label: 'Epaisseur de coupe',
+          label: 'Épaisseur de coupe',
         },
         {
           kind: 'spec',
@@ -92,7 +92,7 @@ export const legendData = {
       twoCol: false,
     },
     {
-      title: 'Materiaux pouvant etre coupes',
+      title: 'Matériaux pouvant être coupés',
       items: [
         {
           kind: 'cut-material',
@@ -109,26 +109,26 @@ export const legendData = {
         {
           kind: 'cut-material',
           iconKey: 'plywood',
-          label: 'Contreplaque',
-          desc: 'Panneaux contreplaques multiplis',
+          label: 'Contreplaqué',
+          desc: 'Panneaux contreplaqués multiplis',
         },
         {
           kind: 'cut-material',
           iconKey: 'mdf-particleboard',
-          label: 'MDF / Agglomere',
-          desc: 'MDF, panneaux de particules, agglomere',
+          label: 'MDF / Aggloméré',
+          desc: 'MDF, panneaux de particules, aggloméré',
         },
         {
           kind: 'cut-material',
           iconKey: 'laminate-flooring',
-          label: 'Stratifie / Parquet',
-          desc: 'Sols stratifies, parquet, placages decoratifs',
+          label: 'Stratifié / Parquet',
+          desc: 'Sols stratifiés, parquet, placages décoratifs',
         },
         {
           kind: 'cut-material',
           iconKey: 'pvc',
           label: 'PVC',
-          desc: 'Tubes et profiles PVC',
+          desc: 'Tubes et profilés PVC',
         },
         {
           kind: 'cut-material',
@@ -140,13 +140,13 @@ export const legendData = {
           kind: 'cut-material',
           iconKey: 'aluminum',
           label: 'Aluminium',
-          desc: 'Profiles et toles aluminium',
+          desc: 'Profilés et tôles aluminium',
         },
         {
           kind: 'cut-material',
           iconKey: 'steel',
           label: 'Acier / Acier doux',
-          desc: 'Acier doux, toles fines',
+          desc: 'Acier doux, tôles fines',
         },
         {
           kind: 'cut-material',
@@ -157,20 +157,20 @@ export const legendData = {
         {
           kind: 'cut-material',
           iconKey: 'non-ferrous-metal',
-          label: 'Metaux non ferreux',
+          label: 'Métaux non ferreux',
           desc: 'Cuivre, laiton, bronze, zinc',
         },
         {
           kind: 'cut-material',
           iconKey: 'tile-fiberglass-cement',
           label: 'Carrelage / Fibre de verre / Ciment',
-          desc: 'Carrelage, ceramique, fibrociment, fibre de verre',
+          desc: 'Carrelage, céramique, fibrociment, fibre de verre',
         },
         {
           kind: 'cut-material',
           iconKey: 'leather-rubber-foam',
           label: 'Cuir / Caoutchouc / Carton / Mousse',
-          desc: 'Cuir, caoutchouc, mousse, carton, liege',
+          desc: 'Cuir, caoutchouc, mousse, carton, liège',
         },
       ],
       twoCol: false,
@@ -182,36 +182,36 @@ export const legendData = {
           kind: 'tooth',
           code: 'A',
           label: 'Denture A',
-          desc: 'Fraisee, avoyage alterne (milled, side set)',
+          desc: 'Fraisée, avoyage alterne (milled, side set)',
         },
         {
           kind: 'tooth',
           code: 'B',
           label: 'Denture B',
-          desc: 'Fraisee, avoyage ondule (milled, wavy set)',
+          desc: 'Fraisée, avoyage ondule (milled, wavy set)',
         },
         {
           kind: 'tooth',
           code: 'C',
           label: 'Denture C',
-          desc: 'Rectifiee, avoyage alterne (ground, side set)',
+          desc: 'Rectifiée, avoyage alterne (ground, side set)',
         },
         {
           kind: 'tooth',
           code: 'D',
           label: 'Denture D',
-          desc: 'Rectifiee a depouille conique (ground, taper ground)',
+          desc: 'Rectifiée à dépouille conique (ground, taper ground)',
         },
         {
           kind: 'tooth',
           code: 'E',
           label: 'Denture E',
-          desc: 'Fraisee a depouille conique (milled, taper ground)',
+          desc: 'Fraisée à dépouille conique (milled, taper ground)',
         },
       ],
       twoCol: false,
     },
   ],
   noteHtml:
-    "\n    <b>Indicateurs derives.</b> Les mentions <b>Coupe rapide</b> et <b>Coupe propre</b> sont deduites du nombre de dents (TPI)\n    et de l'usage decrit par Makita. La <b>Coupe courbe</b> suit la classification Makita (type Scroll / chantournage).\n    La <b>Lubrification recommandee</b> reflete la bonne pratique generale de coupe des metaux (huile de coupe sur acier et inox),\n    et non un parametre publie lame par lame. Lorsqu'une donnee n'est pas publiee de facon fiable, la mention\n    <b>Non documente par Makita</b> est utilisee.\n  ",
+    "\n    <b>Indicateurs dérivés.</b> Les mentions <b>Coupe rapide</b> et <b>Coupe propre</b> sont déduites du nombre de dents (TPI)\n    et de l'usage décrit par Makita. La <b>Coupe courbe</b> suit la classification Makita (type Scroll / chantournage).\n    La <b>Lubrification recommandée</b> reflète la bonne pratique générale de coupe des métaux (huile de coupe sur acier et inox),\n    et non un paramètre publié lame par lame. Lorsqu'une donnée n'est pas publiée de façon fiable, la mention\n    <b>Non documenté par Makita</b> est utilisée.\n  ",
 } as const;

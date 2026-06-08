@@ -43,7 +43,7 @@ const { blade } = Astro.props;
       </div>
     </div>
     <div class="cuts">
-      <div class="section-label">Materiaux pouvant etre coupes</div>
+      <div class="section-label">Matériaux pouvant être coupés</div>
       <MaterialRow materials={blade.materials} />
     </div>
   </div>
@@ -67,7 +67,7 @@ const { blade } = Astro.props;
   </div>
   {blade.cutThickness && (
     <div class="thick">
-      <span class="field-label">Epaisseur de coupe</span>{blade.cutThickness}
+      <span class="field-label">Épaisseur de coupe</span>{blade.cutThickness}
     </div>
   )}
   <div class="observations" set:html={blade.observationsHtml} />

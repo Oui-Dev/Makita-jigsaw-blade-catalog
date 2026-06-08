@@ -1,9 +1,9 @@
 export const catalogMeta = {
   title: 'Lames de scie sauteuse Makita - Guide emmanchement T',
-  kicker: 'Guide de reference outillage',
-  heading: 'Lames de scie sauteuse Makita a emmanchement en T',
+  kicker: 'Guide de référence outillage',
+  heading: 'Lames de scie sauteuse Makita à emmanchement en T',
   subtitle:
-    'Catalogue complet des lames Makita compatibles, classees par usage, avec caracteristiques techniques et pictogrammes normalises.',
+    'Catalogue complet des lames Makita compatibles, classées par usage, avec caractéristiques techniques et pictogrammes normalisés.',
   compatibleModelGroups: [
     {
       label: 'Filaire',
@@ -25,13 +25,13 @@ export const catalogMeta = {
   stats: [
     {
       value: '37',
-      label: 'References',
+      label: 'Références',
     },
     {
       value: '08/06/2026',
-      label: 'Edition',
+      label: 'Édition',
     },
   ],
   footnote:
-    "Document de synthese, non officiel, etabli a partir de sources croisees. Les references et caracteristiques peuvent evoluer : verifier la disponibilite aupres de Makita ou d'un revendeur agree.",
+    "Document de synthèse, non officiel, établi à partir de sources croisées. Les références et caractéristiques peuvent évoluer : vérifier la disponibilité auprès de Makita ou d'un revendeur agréé.",
 } as const;
