@@ -33,7 +33,7 @@ import Note from '../layout/Note.astro';
               <span class="ic"><Icon name={item.iconKey} size={24} /></span>
               <div class="tx">
                 <b>{item.label}</b>
-                {item.desc && <span>{item.desc}</span>}
+                {'desc' in item && item.desc && <span>{item.desc}</span>}
               </div>
             </>
           )}
