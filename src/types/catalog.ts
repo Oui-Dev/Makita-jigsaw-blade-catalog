@@ -81,9 +81,7 @@ export interface SectionHeadData {
   desc: string;
 }
 
-export type PageBlock =
-  | { kind: 'family'; name: string; slug: FamilySlug; count: string }
-  | { kind: 'blade'; ref: string };
+export type PageBlock = { kind: 'blade'; ref: string };
 
 export type DocumentPage =
   | { type: 'cover' }

@@ -104,14 +104,6 @@ table.sum .ref{font-family:"DejaVu Sans Mono",monospace; font-weight:700; white-
 }
 
 /* ---------- Detail cards ---------- */
-.fam-band{
-  background:var(--ink); color:#fff; padding:8px 14px; border-radius:8px;
-  display:flex; align-items:center; gap:10px; margin:0 0 11px 0; break-after:avoid;
-}
-.fam-band .dot{width:10px; height:10px; border-radius:50%; background:var(--teal);}
-.fam-band h3{font-size:13px; letter-spacing:.02em;}
-.fam-band .cnt{margin-left:auto; font-size:10px; opacity:.8;}
-
 .card{
   border:1px solid var(--line); border-radius:10px; overflow:hidden;
   margin-bottom:9px; break-inside:avoid; background:#fff;

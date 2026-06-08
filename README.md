@@ -22,8 +22,8 @@ Catalogue imprimable des lames de scie sauteuse Makita (emmanchement en T), comp
 
 ## Modifier le catalogue
 
-1. Éditer les données dans `src/data/` (principalement `blades.ts`, `summary.ts`, `usage-index.ts`, `page-layout.ts`)
+1. Éditer les données dans `src/data/` (principalement `blades.ts`, `usage-index.ts`)
 2. Lancer `npm run build` pour générer le HTML
 3. Ouvrir le HTML généré et imprimer (Ctrl+P)
 
-Pour une nouvelle lame : ajouter l'entrée dans `blades.ts`, mettre à jour `summary.ts`, `usage-index.ts` et `page-layout.ts`. Utiliser des clés anglaises pour `materials`, `iconKey`, `family` et `features` (voir `src/types/catalog.ts`).
+Pour une nouvelle lame : ajouter l'entrée dans `blades.ts` (avec son bloc `summary`), insérer la ref au bon endroit dans le tableau `bladeRefs`, et mettre à jour `usage-index.ts` pour la catégorisation par usage. Le tableau récapitulatif et les fiches détaillées suivent automatiquement l'ordre de `bladeRefs`.

@@ -1,8 +1,11 @@
 ---
-import { summaryRows, summaryNoteHtml } from '@/data/summary';
+import { bladeRefs, blades } from '@/data/blades';
+import { summaryNoteHtml } from '@/data/summary';
 import MatBadge from '@/components/shared/MatBadge.astro';
 import YesNo from '@/components/shared/YesNo.astro';
 import Note from '@/components/layout/Note.astro';
+
+const rows = bladeRefs.map((ref) => blades[ref].summary).filter((row) => row != null);
 ---
 <div class="pad"></div>
 <div class="sec-head">
@@ -25,7 +28,7 @@ import Note from '@/components/layout/Note.astro';
     </tr>
   </thead>
   <tbody>
-    {summaryRows.map((row) => (
+    {rows.map((row) => (
       <tr>
         <td class="ref">{row.ref}</td>
         <td class="c"><MatBadge code={row.material} /></td>

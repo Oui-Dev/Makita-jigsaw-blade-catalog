@@ -1,277 +1,34 @@
 import type { DocumentPage } from '@/types/catalog';
+import { bladeRefs } from '@/data/blades';
+
+const BLADES_PER_PAGE = 3;
+
+function chunk<T>(arr: readonly T[], size: number): T[][] {
+  const pages: T[][] = [];
+  for (let i = 0; i < arr.length; i += size) {
+    pages.push([...arr.slice(i, i + size)]);
+  }
+  return pages;
+}
+
+const detailPages: DocumentPage[] = chunk(bladeRefs, BLADES_PER_PAGE).map((refs, i) => ({
+  type: 'details' as const,
+  pad: i === 0,
+  blocks: refs.map((ref) => ({ kind: 'blade' as const, ref })),
+  sectionHead:
+    i === 0
+      ? {
+          num: '03',
+          title: 'Fiches detaillees par reference',
+          desc: "Une fiche complete par lame, par ordre de reference.",
+        }
+      : undefined,
+}));
 
 export const documentPages: DocumentPage[] = [
-  {
-    "type": "cover"
-  },
-  {
-    "type": "legend"
-  },
-  {
-    "type": "summary"
-  },
-  {
-    "type": "details",
-    "pad": true,
-    "blocks": [
-      {
-        "kind": "family",
-        "name": "Bois, contreplaque et plastiques",
-        "slug": "wood-plywood-plastics",
-        "count": "15 reference(s)"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-10"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-10S"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-11"
-      }
-    ],
-    "sectionHead": {
-      "num": "03",
-      "title": "Fiches detaillees par reference",
-      "desc": "Une fiche complete par lame, regroupee par famille d'usage."
-    }
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "blade",
-        "ref": "B-12"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-13"
-      },
-      {
-        "kind": "blade",
-        "ref": "BR-13"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "blade",
-        "ref": "B-14"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-15"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-16"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "blade",
-        "ref": "B-16L"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-17"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-18"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "blade",
-        "ref": "B-19"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-19S"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-50"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "family",
-        "name": "Plastiques et metaux non ferreux",
-        "slug": "plastics-non-ferrous-metals",
-        "count": "3 reference(s)"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-21"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-23"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-25"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "family",
-        "name": "Metal (acier, inox, non ferreux)",
-        "slug": "metal-steel-stainless",
-        "count": "14 reference(s)"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-22"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-22S"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-24"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "blade",
-        "ref": "B-26"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-27"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-28"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "blade",
-        "ref": "B-29"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-30"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-32"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "blade",
-        "ref": "B-33"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-34"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-35"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "blade",
-        "ref": "B-51"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-52"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "family",
-        "name": "Stratifie et parquet",
-        "slug": "laminate-flooring",
-        "count": "2 reference(s)"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-53"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-54"
-      }
-    ]
-  },
-  {
-    "type": "details",
-    "pad": false,
-    "blocks": [
-      {
-        "kind": "family",
-        "name": "Usages speciaux",
-        "slug": "special-uses",
-        "count": "3 reference(s)"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-60"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-61"
-      },
-      {
-        "kind": "blade",
-        "ref": "B-K"
-      }
-    ]
-  },
-  {
-    "type": "usage-index"
-  }
+  { type: 'cover' },
+  { type: 'legend' },
+  { type: 'summary' },
+  ...detailPages,
+  { type: 'usage-index' },
 ];
