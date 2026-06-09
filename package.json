@@ -1,7 +1,7 @@
 {
   "name": "makita-jigsaw-blade-catalog",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "editionDate": "09/06/2026",
   "engines": {
     "node": ">=22.12.0"
