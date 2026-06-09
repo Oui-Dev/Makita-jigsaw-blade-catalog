@@ -490,7 +490,7 @@ export const blades: Record<string, BladeRecord> = {
   'B-19': {
     ref: 'B-19',
     name: 'Denture inversée, matériaux sandwich, PVC, bois et contreplaqué',
-    material: 'HSS',
+    material: 'HCS',
     tpi: '12',
     length: '90 mm',
     usefulLength: '63 mm',
@@ -515,7 +515,7 @@ export const blades: Record<string, BladeRecord> = {
     family: 'wood-plywood-plastics',
     summary: {
       ref: 'B-19',
-      material: 'HSS',
+      material: 'HCS',
       tpi: '12',
       length: '90 mm',
       mainMaterials: 'Bois tendre, Contreplaqué, MDF / Aggloméré, PVC, Plastique',
