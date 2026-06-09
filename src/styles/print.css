@@ -623,7 +623,7 @@ table.sum {
 .idx-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 9px;
+  gap: 8px;
 }
 
 .idx-card {
@@ -634,7 +634,7 @@ table.sum {
 
   .idx-header {
     background: var(--bg);
-    padding: 6px 11px;
+    padding: 4px 8px;
     font-weight: 700;
     font-size: 11px;
     border-bottom: 1px solid var(--line);
@@ -655,10 +655,10 @@ table.sum {
   }
 
   .idx-body {
-    padding: 8px 11px;
+    padding: 6px 8px;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 4px;
   }
 }
 
@@ -668,13 +668,13 @@ table.sum {
   font-weight: 700;
   background: var(--teal);
   color: #fff;
-  padding: 2px 7px;
+  padding: 2px 4px;
   border-radius: 4px;
 }
 
 /* ---------- Footer note ---------- */
 .note {
-  margin-top: 14px;
+  margin-top: 18px;
   padding: 10px 13px;
   border-left: 3px solid var(--teal);
   background: var(--bg);
@@ -688,5 +688,5 @@ table.sum {
   text-align: center;
   color: var(--muted);
   font-size: 8.6px;
-  margin-top: 18px;
+  margin-top: 16px;
 }
