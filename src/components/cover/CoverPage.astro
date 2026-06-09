@@ -1,4 +1,5 @@
 ---
+import { bladeRefs } from '@/data/blades';
 import packageJson from '../../../package.json';
 
 const { editionDate } = packageJson;
@@ -67,7 +68,7 @@ const compatibleModelGroups = [
 
   <div class="meta">
     <div>
-      <span class="stat-value">37</span>
+      <span class="stat-value">{bladeRefs.length}</span>
       <span class="stat-label">Références</span>
     </div>
     <div>

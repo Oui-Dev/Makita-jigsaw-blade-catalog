@@ -24,4 +24,4 @@ Catalogue imprimable des lames de scie sauteuse Makita, compatible avec les scie
 2. Lancer `npm run build` pour générer le HTML
 3. Ouvrir le HTML généré et imprimer (Ctrl+P)
 
-Pour une nouvelle lame : ajouter l'entrée dans `blades.ts` (avec son bloc `summary`), insérer la ref au bon endroit dans le tableau `bladeRefs`, et mettre à jour `usage-index.ts` pour la catégorisation par usage. Le tableau récapitulatif et les fiches détaillées suivent automatiquement l'ordre de `bladeRefs`.
+Pour une nouvelle lame : ajouter l'entrée dans `blades.ts` (avec son bloc `summary`), et mettre à jour `usage-index.ts` pour la catégorisation par usage. Le tableau récapitulatif et les fiches détaillées suivent automatiquement l'ordre de `blades`.

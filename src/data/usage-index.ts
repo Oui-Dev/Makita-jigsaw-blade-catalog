@@ -95,14 +95,14 @@ export const usageIndex = {
       ],
     },
     {
-      title: 'Bois épais',
-      iconKey: 'hardwood' as const,
-      refs: ['B-13', 'B-16L', 'L-1', 'L-2', 'L-10'],
-    },
-    {
       title: 'MDF / Aggloméré',
       iconKey: 'mdf-particleboard' as const,
       refs: ['B-19', 'B-53', 'B-54', 'B-55', 'B-60', 'B-61', 'P-47204', 'P-49644'],
+    },
+    {
+      title: 'Bois épais',
+      iconKey: 'hardwood' as const,
+      refs: ['B-13', 'B-16L', 'L-1', 'L-2', 'L-10'],
     },
     {
       title: 'Stratifié',
@@ -233,6 +233,11 @@ export const usageIndex = {
       refs: ['B-60', 'B-61', 'P-38766', 'P-38788'],
     },
     {
+      title: 'Coupe courbe (chantournage)',
+      iconKey: 'curved-cut' as const,
+      refs: ['B-17', 'B-18', 'B-26', 'B-27', 'B-29', 'B-53', 'B-54', 'B-60', 'B-61', 'B-K'],
+    },
+    {
       title: 'Coupe rapide',
       iconKey: 'fast-cut' as const,
       refs: [
@@ -300,11 +305,6 @@ export const usageIndex = {
         'No.59',
         'No.51',
       ],
-    },
-    {
-      title: 'Coupe courbe (chantournage)',
-      iconKey: 'curved-cut' as const,
-      refs: ['B-17', 'B-18', 'B-26', 'B-27', 'B-29', 'B-53', 'B-54', 'B-60', 'B-61', 'B-K'],
     },
   ],
   noteHtml:

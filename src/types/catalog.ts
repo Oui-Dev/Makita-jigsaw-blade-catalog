@@ -71,7 +71,7 @@ export interface BladeRecord {
   features: BladeFeatures;
   sawPath: string;
   family: FamilySlug;
-  summary?: SummaryRow;
+  summary: SummaryRow;
 }
 
 export interface SectionHeadData {
