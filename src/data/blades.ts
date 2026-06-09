@@ -349,7 +349,8 @@ export const blades: Record<string, BladeRecord> = {
     boschEquiv: 'T144D',
     makitaCode: 'A-85684',
     cutThickness: 'Bois / plastiques : 5 à 65 mm',
-    observations: 'Lame de coupe rapide à dents rectifiées et latérales pour le bois, le contreplaqué et les plastiques.',
+    observations:
+      'Lame de coupe rapide à dents rectifiées et latérales pour le bois, le contreplaqué et les plastiques.',
     observationsHtml:
       '<b>Observations.</b> Lame de coupe rapide à dents rectifiées et latérales pour le bois, le contreplaqué et les plastiques. <b>Code de commande Makita :</b> <span class="mono">A-85684</span>.',
     materials: ['softwood', 'plywood', 'plastic'],
@@ -573,7 +574,7 @@ export const blades: Record<string, BladeRecord> = {
     makitaCode: 'A-85721',
     cutThickness: 'Alu / acier doux : 1 à 10 mm ; PVC : 3 à 60 mm',
     observations:
-      'Lame HSS à dents rectifiées et effilées pour l\'aluminium, le PVC et l\'acier doux. Huile de coupe conseillée sur métal.',
+      "Lame HSS à dents rectifiées et effilées pour l'aluminium, le PVC et l'acier doux. Huile de coupe conseillée sur métal.",
     observationsHtml:
       '<b>Observations.</b> Lame HSS à dents rectifiées et effilées pour l\'aluminium, le PVC et l\'acier doux. Huile de coupe conseillée sur métal. <b>Code de commande Makita :</b> <span class="mono">A-85721</span>.',
     materials: ['aluminum', 'steel', 'pvc', 'plastic'],
@@ -686,7 +687,7 @@ export const blades: Record<string, BladeRecord> = {
     makitaCode: 'A-85743',
     cutThickness: 'Bois / plastiques : 3 à 35 mm ; acier / alu : 2 à 6 mm',
     observations:
-      'Lame courte HSS polyvalente pour le bois, le contreplaqué, le PVC, l\'aluminium et l\'acier doux. Huile de coupe conseillée sur métal.',
+      "Lame courte HSS polyvalente pour le bois, le contreplaqué, le PVC, l'aluminium et l'acier doux. Huile de coupe conseillée sur métal.",
     observationsHtml:
       '<b>Observations.</b> Lame courte HSS polyvalente pour le bois, le contreplaqué, le PVC, l\'aluminium et l\'acier doux. Huile de coupe conseillée sur métal. <b>Code de commande Makita :</b> <span class="mono">A-85743</span>.',
     materials: ['softwood', 'plywood', 'pvc', 'plastic', 'aluminum', 'steel'],
@@ -762,7 +763,7 @@ export const blades: Record<string, BladeRecord> = {
     makitaCode: 'A-85765',
     cutThickness: 'Bois / plastiques : 3 à 60 mm ; acier / alu : 3 à 10 mm',
     observations:
-      'Lame HSS universelle pour le bois, le contreplaqué, le PVC, l\'aluminium et l\'acier doux, y compris le bois avec clous. Huile de coupe conseillée sur métal.',
+      "Lame HSS universelle pour le bois, le contreplaqué, le PVC, l'aluminium et l'acier doux, y compris le bois avec clous. Huile de coupe conseillée sur métal.",
     observationsHtml:
       '<b>Observations.</b> Lame HSS universelle pour le bois, le contreplaqué, le PVC, l\'aluminium et l\'acier doux, y compris le bois avec clous. Huile de coupe conseillée sur métal. <b>Code de commande Makita :</b> <span class="mono">A-85765</span>.',
     materials: ['softwood', 'plywood', 'pvc', 'plastic', 'aluminum', 'steel'],
@@ -799,8 +800,7 @@ export const blades: Record<string, BladeRecord> = {
     boschEquiv: '-',
     makitaCode: 'A-85771',
     cutThickness: 'Bois : 3 à 60 mm ; acier doux : 3 à 10 mm',
-    observations:
-      'Lame HSS à chantourner pour le bois, le contreplaqué, le PVC, l\'aluminium et l\'acier doux.',
+    observations: "Lame HSS à chantourner pour le bois, le contreplaqué, le PVC, l'aluminium et l'acier doux.",
     observationsHtml:
       '<b>Observations.</b> Lame HSS à chantourner pour le bois, le contreplaqué, le PVC, l\'aluminium et l\'acier doux. <b>Code de commande Makita :</b> <span class="mono">A-85771</span>.',
     materials: ['softwood', 'plywood', 'plastic', 'aluminum', 'steel'],
@@ -1366,7 +1366,7 @@ export const blades: Record<string, BladeRecord> = {
     makitaCode: 'B-06890',
     cutThickness: 'Époxy / fibre de verre / plastiques : 5 à 20 mm',
     observations:
-      'Lame à pointes en carbure de tungstène pour l\'époxy, la plaque de plâtre, le fibrociment, le MDF et la fibre de verre. Pack de 3 lames.',
+      "Lame à pointes en carbure de tungstène pour l'époxy, la plaque de plâtre, le fibrociment, le MDF et la fibre de verre. Pack de 3 lames.",
     observationsHtml:
       '<b>Observations.</b> Lame à pointes en carbure de tungstène pour l\'époxy, la plaque de plâtre, le fibrociment, le MDF et la fibre de verre. Pack de 3 lames. <b>Code de commande Makita :</b> <span class="mono">B-06890</span>.',
     materials: ['tile-fiberglass-cement', 'mdf-particleboard', 'pvc', 'plastic'],
@@ -1404,7 +1404,7 @@ export const blades: Record<string, BladeRecord> = {
     makitaCode: 'B-06909',
     cutThickness: 'Époxy / fibre de verre / plastiques : 5 à 50 mm',
     observations:
-      'Version longue à pointes en carbure pour l\'époxy, la plaque de plâtre, le fibrociment, le MDF et la fibre de verre. Pack de 3 lames.',
+      "Version longue à pointes en carbure pour l'époxy, la plaque de plâtre, le fibrociment, le MDF et la fibre de verre. Pack de 3 lames.",
     observationsHtml:
       '<b>Observations.</b> Version longue à pointes en carbure pour l\'époxy, la plaque de plâtre, le fibrociment, le MDF et la fibre de verre. Pack de 3 lames. <b>Code de commande Makita :</b> <span class="mono">B-06909</span>.',
     materials: ['tile-fiberglass-cement', 'mdf-particleboard', 'pvc', 'plastic'],
@@ -1554,8 +1554,7 @@ export const blades: Record<string, BladeRecord> = {
     boschEquiv: '-',
     makitaCode: 'A-86315',
     cutThickness: 'Bois : 3 à 135 mm ; plastiques : 5 à 135 mm',
-    observations:
-      'Lame très longue pour la coupe de matériaux épais en bois, contreplaqué et plastiques.',
+    observations: 'Lame très longue pour la coupe de matériaux épais en bois, contreplaqué et plastiques.',
     observationsHtml:
       '<b>Observations.</b> Lame très longue pour la coupe de matériaux épais en bois, contreplaqué et plastiques. <b>Code de commande Makita :</b> <span class="mono">A-86315</span>.',
     materials: ['softwood', 'plywood', 'plastic'],
@@ -1593,7 +1592,7 @@ export const blades: Record<string, BladeRecord> = {
     makitaCode: 'P-05929',
     cutThickness: 'Acier doux : 1,2 à 2,5 mm',
     observations:
-      'Lame à dents à bande en carbure pour la coupe de métal et d\'inox sur faible épaisseur. Huile de coupe recommandée.',
+      "Lame à dents à bande en carbure pour la coupe de métal et d'inox sur faible épaisseur. Huile de coupe recommandée.",
     observationsHtml:
       '<b>Observations.</b> Lame à dents à bande en carbure pour la coupe de métal et d\'inox sur faible épaisseur. Huile de coupe recommandée. <b>Code de commande Makita :</b> <span class="mono">P-05929</span>.',
     materials: ['steel', 'stainless-steel', 'non-ferrous-metal'],
@@ -1629,7 +1628,7 @@ export const blades: Record<string, BladeRecord> = {
     toothType: '-',
     boschEquiv: '-',
     makitaCode: 'P-49622',
-    cutThickness: 'Bois : jusqu\'à 60 mm ; acier doux : 2,5 à 6 mm',
+    cutThickness: "Bois : jusqu'à 60 mm ; acier doux : 2,5 à 6 mm",
     observations:
       'Lame bi-métal longue durée pour la coupe du métal et du bois contenant des clous. Huile de coupe conseillée sur acier.',
     observationsHtml:
@@ -1669,7 +1668,7 @@ export const blades: Record<string, BladeRecord> = {
     makitaCode: 'P-47226',
     cutThickness: 'Acier doux : 1,5 à 4 mm ; inox : 1,5 à 2 mm',
     observations:
-      'Lame bi-métal courte longue durée pour la coupe de l\'acier doux et de l\'inox. Huile de coupe recommandée.',
+      "Lame bi-métal courte longue durée pour la coupe de l'acier doux et de l'inox. Huile de coupe recommandée.",
     observationsHtml:
       '<b>Observations.</b> Lame bi-métal courte longue durée pour la coupe de l\'acier doux et de l\'inox. Huile de coupe recommandée. <b>Code de commande Makita :</b> <span class="mono">P-47226</span>.',
     materials: ['steel', 'stainless-steel'],
@@ -1707,7 +1706,7 @@ export const blades: Record<string, BladeRecord> = {
     makitaCode: 'P-47232',
     cutThickness: 'Acier doux : 2 à 3 mm',
     observations:
-      'Lame bi-métal courte longue durée pour la coupe du métal, de l\'aluminium et des métaux non ferreux. Huile de coupe recommandée.',
+      "Lame bi-métal courte longue durée pour la coupe du métal, de l'aluminium et des métaux non ferreux. Huile de coupe recommandée.",
     observationsHtml:
       '<b>Observations.</b> Lame bi-métal courte longue durée pour la coupe du métal, de l\'aluminium et des métaux non ferreux. Huile de coupe recommandée. <b>Code de commande Makita :</b> <span class="mono">P-47232</span>.',
     materials: ['steel', 'aluminum', 'non-ferrous-metal'],
@@ -1782,8 +1781,7 @@ export const blades: Record<string, BladeRecord> = {
     boschEquiv: '-',
     makitaCode: 'P-47210',
     cutThickness: 'Acier doux : 3 à 6 mm',
-    observations:
-      'Lame bi-métal longue pour la coupe du métal, de l\'aluminium et du PVC. Huile de coupe recommandée.',
+    observations: "Lame bi-métal longue pour la coupe du métal, de l'aluminium et du PVC. Huile de coupe recommandée.",
     observationsHtml:
       '<b>Observations.</b> Lame bi-métal longue pour la coupe du métal, de l\'aluminium et du PVC. Huile de coupe recommandée. <b>Code de commande Makita :</b> <span class="mono">P-47210</span>.',
     materials: ['steel', 'stainless-steel', 'aluminum', 'pvc', 'plastic'],

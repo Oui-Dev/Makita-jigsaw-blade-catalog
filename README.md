@@ -1,6 +1,6 @@
 # Makita Jigsaw Blade Catalog
 
-Catalogue imprimable des lames de scie sauteuse Makita (emmanchement en T), compatible avec les scies sauteuses Makita à emmanchement baionnette (type B).
+Catalogue imprimable des lames de scie sauteuse Makita, compatible avec les scies sauteuses Makita à emmanchement baionnette (également connue sous le nom de tige en T).
 
 ## Structure du projet
 
