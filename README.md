@@ -1,28 +1,30 @@
 # Makita Jigsaw Blade Catalog
 
-Catalogue imprimable des lames de scie sauteuse Makita, compatible avec les scies sauteuses Makita à emmanchement baionnette (également connue sous le nom de tige en T).
+Printable catalog of Makita jigsaw blades, compatible with Makita jigsaw saws that use a bayonet shank (also known as a T-shank).
 
-## Structure du projet
+## Project structure
 
-- `src/data/` — données du catalogue (lames, légende, pagination, index)
-- `src/components/` — composants Astro (fiches lame, tableau, légende…)
-- `src/lib/` — constantes, registre des icônes SVG (`icon-svgs.ts`)
-- `src/types/` — types TypeScript (`catalog.ts`)
-- `src/styles/print.css` — styles d'impression
+- `src/data/` — catalog data (blades, legend, pagination, index)
+- `src/components/` — Astro components (blade cards, summary table, legend, etc.)
+- `src/lib/` — constants and SVG icon registry (`icon-svgs.ts`)
+- `src/types/` — TypeScript types (`catalog.ts`)
+- `src/styles/print.css` — print styles
 
-## Commandes
+## Commands
 
-| Commande | Description |
-|----------|-------------|
-| `npm run dev` | Prévisualisation locale avec rechargement |
-| `npm run build` | Vérification TypeScript + build dans `dist/` |
-| `npm run pdf` | Génère le PDF d'impression à partir de `dist/` |
-| `npm run typecheck` | Diagnostic TypeScript uniquement |
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Local preview with hot reload |
+| `npm run build` | TypeScript check + build to `dist/` |
+| `npm run pdf` | Generate the print PDF from `dist/` |
+| `npm run typecheck` | TypeScript diagnostics only |
 
-## Modifier le catalogue
+## Editing the catalog
 
-1. Éditer les données dans `src/data/` (principalement `blades.ts`, `usage-index.ts`)
-2. Lancer `npm run build` pour générer le HTML
-3. Lancer `npm run pdf` pour générer le PDF d'impression (ou sinon ouvrir le HTML généré et imprimer)
+1. Edit data in `src/data/` (mainly `blades.ts`, `usage-index.ts`)
+2. Run `npm run build` to generate the HTML
+3. Run `npm run pdf` to generate the print PDF (or open the built HTML and print from the browser)
 
-Pour une nouvelle lame : ajouter l'entrée dans `blades.ts` (avec son bloc `summary`), et mettre à jour `usage-index.ts` pour la catégorisation par usage. Le tableau récapitulatif et les fiches détaillées suivent automatiquement l'ordre de `blades`.
+To add a new blade: add an entry in `blades.ts` (including its `summary` block), and update `usage-index.ts` for usage-based categorization. The summary table and detail pages follow the order defined in `blades`.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, code style, and pull request guidelines.
