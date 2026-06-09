@@ -2,6 +2,8 @@
 
 Printable catalog of Makita jigsaw blades, compatible with Makita jigsaw saws that use a bayonet shank (also known as a T-shank).
 
+[📄 Télécharger le catalogue (PDF)](https://github.com/Oui-Dev/Makita-jigsaw-blade-catalog/releases/latest)
+
 ## Project structure
 
 - `src/data/` — catalog data (blades, legend, pagination, index)
