@@ -1,14 +1,15 @@
 ---
 import Icon from '@/components/icons/Icon.astro';
 import Note from '@/components/layout/Note.astro';
+import SectionHead from '@/components/layout/SectionHead.astro';
 import { usageIndex } from '@/data/usage-index';
 ---
 
-<div class="sec-head">
-  <span class="num">04</span>
-  <h2>Index par usage</h2>
-  <div class="desc">Retrouver rapidement les lames adaptées à chaque besoin.</div>
-</div>
+<SectionHead
+  num="04"
+  title="Index par usage"
+  desc="Retrouver rapidement les lames adaptées à chaque besoin."
+/>
 <div class="idx-grid">
   {usageIndex.entries.map((entry) => (
     <div class="idx-card">

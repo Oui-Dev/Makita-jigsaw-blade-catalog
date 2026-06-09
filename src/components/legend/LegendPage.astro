@@ -1,15 +1,15 @@
 ---
 import Icon from '@/components/icons/Icon.astro';
 import Note from '@/components/layout/Note.astro';
+import SectionHead from '@/components/layout/SectionHead.astro';
 import { legendData } from '@/data/legend';
 ---
 
-<div class="sec-head">
-  <span class="num">01</span>
-  <h2>Légende des pictogrammes</h2>
-  <div class="desc">Symboles réutilisés à l'identique dans tout le document.</div>
-</div>
-
+<SectionHead
+  num="01"
+  title="Légende des pictogrammes"
+  desc="Symboles réutilisés à l'identique dans tout le document."
+/>
 {legendData.blocks.map((block) => (
   <div class="leg-block">
     <h3>{block.title}</h3>
