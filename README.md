@@ -16,12 +16,13 @@ Catalogue imprimable des lames de scie sauteuse Makita, compatible avec les scie
 |----------|-------------|
 | `npm run dev` | Prévisualisation locale avec rechargement |
 | `npm run build` | Vérification TypeScript + build dans `dist/` |
+| `npm run pdf` | Génère le PDF d'impression à partir de `dist/` |
 | `npm run typecheck` | Diagnostic TypeScript uniquement |
 
 ## Modifier le catalogue
 
 1. Éditer les données dans `src/data/` (principalement `blades.ts`, `usage-index.ts`)
 2. Lancer `npm run build` pour générer le HTML
-3. Ouvrir le HTML généré et imprimer (Ctrl+P)
+3. Lancer `npm run pdf` pour générer le PDF d'impression (ou sinon ouvrir le HTML généré et imprimer)
 
 Pour une nouvelle lame : ajouter l'entrée dans `blades.ts` (avec son bloc `summary`), et mettre à jour `usage-index.ts` pour la catégorisation par usage. Le tableau récapitulatif et les fiches détaillées suivent automatiquement l'ordre de `blades`.
